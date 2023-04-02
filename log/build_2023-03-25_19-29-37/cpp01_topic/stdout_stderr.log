@@ -1,0 +1,193 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o[0m
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/student.hpp: No such file or directory
+    2 | #include [01;31m[K"base_interfaces_demo/student.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:76: CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:5:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interface_demo[m[K’ has not been declared
+    5 | using [01;31m[Kbase_interface_demo[m[K::msg::Student;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:21:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+   27 |   rclcpp::Publisher<[01;31m[KStudent[m[K>::SharedPtr publisher_;
+      |                     [01;31m[K^~~~~~~[m[K
+      |                     [32m[Kbase_interfaces_demo::msg::Student[m[K
+In file included from [01m[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp:7[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2[m[K:
+[01m[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+  150 | using [01;36m[KStudent[m[K =
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:28:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |   rclcpp::Publisher<Student[01;31m[K>[m[K::SharedPtr publisher_;
+      |                            [01;31m[K^[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   27 |   rclcpp::Publisher<Student>::[01;31m[KSharedPtr[m[K publisher_;
+      |                               [01;31m[K^~~~~~~~~[m[K
+      |                                        [32m[K;[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   27 |   rclcpp::Publisher<Student>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                         [01;31m[K^~~~~~~~~~[m[K
+      |                                         [32m[Krmw_publisher_t[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   11 |     [01;31m[Kpublisher_[m[K = this->create_publisher<Student>("topic_stu", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:41:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+   11 |     publisher_ = this->create_publisher<[01;31m[KStudent[m[K>("topic_stu", 10);
+      |                                         [01;31m[K^~~~~~~[m[K
+      |                                         [32m[Kbase_interfaces_demo::msg::Student[m[K
+In file included from [01m[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp:7[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2[m[K:
+[01m[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+  150 | using [01;36m[KStudent[m[K =
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [10], int)[m[K’
+   11 |     publisher_ = [01;31m[Kthis->create_publisher<Student>("topic_stu", 10)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |     publisher_ = [01;31m[Kthis->create_publisher<Student>("topic_stu", 10)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+   18 |     auto stu = [01;31m[KStudent[m[K();
+      |                [01;31m[K^~~~~~~[m[K
+      |                [32m[Kbase_interfaces_demo::msg::Student[m[K
+In file included from [01m[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp:7[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2[m[K:
+[01m[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+  150 | using [01;36m[KStudent[m[K =
+      |       [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::get_logger(const char [12])[m[K’
+   22 |     RCLCPP_INFO([01;31m[Kthis->get_logger("logger name")[m[K,
+      |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::get_logger(const char [12])[m[K’
+   22 |     RCLCPP_INFO([01;31m[Kthis->get_logger("logger name")[m[K,
+      |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger("logger name"),
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   22 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger("logger name"),
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger("logger name"),
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   22 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger("logger name"),
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger("logger name"),
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::get_logger(const char [12])[m[K’
+   22 |     RCLCPP_INFO([01;31m[Kthis->get_logger("logger name")[m[K,
+      |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::get_logger(const char [12])[m[K’
+   22 |     RCLCPP_INFO([01;31m[Kthis->get_logger("logger name")[m[K,
+      |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   24 |     [01;31m[Kpublisher_[m[K->publish(stu);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/demo_stu.dir/build.make:76: CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo_stu.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

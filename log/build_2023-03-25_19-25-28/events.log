@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.006759] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.007263] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/levi/tut_interface/install/base_interfaces_demo')])}
+[0.007587] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.083156] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.095613] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.100750] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/levi/tut_interface/build/cpp01_topic', '--', '-j6', '-l6'], 'cwd': '/home/levi/tut_interface/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/levi/tut_interface/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/levi/tut_interface/src'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/levi/tut_interface/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'levi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1291,unix/levi-virtual-machine:/tmp/.ICE-unix/1291'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da11ff46_de30_4067_bfa7_0a2d66f87202'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0X8111'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/levi/tut_interface/build/cpp01_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.124090] (-) TimerEvent: {}
+[0.230068] (-) TimerEvent: {}
+[0.331152] (-) TimerEvent: {}
+[0.374015] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.431601] (-) TimerEvent: {}
+[0.532603] (-) TimerEvent: {}
+[0.644520] (-) TimerEvent: {}
+[0.745623] (-) TimerEvent: {}
+[0.846585] (-) TimerEvent: {}
+[0.947903] (-) TimerEvent: {}
+[1.048974] (-) TimerEvent: {}
+[1.150194] (-) TimerEvent: {}
+[1.251435] (-) TimerEvent: {}
+[1.352392] (-) TimerEvent: {}
+[1.423690] (cpp01_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.452830] (-) TimerEvent: {}
+[1.553792] (-) TimerEvent: {}
+[1.655308] (-) TimerEvent: {}
+[1.718303] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.739339] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.755792] (-) TimerEvent: {}
+[1.806255] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.856091] (-) TimerEvent: {}
+[1.904381] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.956884] (-) TimerEvent: {}
+[2.022652] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.057118] (-) TimerEvent: {}
+[2.158171] (-) TimerEvent: {}
+[2.259211] (-) TimerEvent: {}
+[2.358483] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.359473] (-) TimerEvent: {}
+[2.373670] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.459828] (-) TimerEvent: {}
+[2.560833] (-) TimerEvent: {}
+[2.662337] (-) TimerEvent: {}
+[2.763530] (-) TimerEvent: {}
+[2.865422] (-) TimerEvent: {}
+[2.966484] (-) TimerEvent: {}
+[3.060241] (cpp01_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.066940] (-) TimerEvent: {}
+[3.167883] (-) TimerEvent: {}
+[3.269602] (-) TimerEvent: {}
+[3.371042] (-) TimerEvent: {}
+[3.471875] (-) TimerEvent: {}
+[3.572711] (-) TimerEvent: {}
+[3.674135] (-) TimerEvent: {}
+[3.775247] (-) TimerEvent: {}
+[3.842058] (cpp01_topic) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[3.875624] (-) TimerEvent: {}
+[3.935077] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.975977] (-) TimerEvent: {}
+[4.076759] (-) TimerEvent: {}
+[4.178175] (-) TimerEvent: {}
+[4.279191] (-) TimerEvent: {}
+[4.330496] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.331577] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/levi/tut_interface/src/cpp01_topic/include>\n'}
+[4.332390] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.340643] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.357147] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.359812] (cpp01_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.362135] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.373988] (cpp01_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.379857] (-) TimerEvent: {}
+[4.481294] (-) TimerEvent: {}
+[4.582016] (cpp01_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[4.582361] (-) TimerEvent: {}
+[4.593652] (cpp01_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/levi/tut_interface/build/cpp01_topic\n'}
+[4.682883] (-) TimerEvent: {}
+[4.784120] (-) TimerEvent: {}
+[4.798203] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo_stu\x1b[0m\n'}
+[4.799384] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo_stu_listener\x1b[0m\n'}
+[4.875467] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o\x1b[0m\n'}
+[4.885193] (-) TimerEvent: {}
+[4.903434] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o\x1b[0m\n'}
+[4.985784] (-) TimerEvent: {}
+[5.090085] (-) TimerEvent: {}
+[5.194509] (-) TimerEvent: {}
+[5.295440] (-) TimerEvent: {}
+[5.396356] (-) TimerEvent: {}
+[5.497772] (-) TimerEvent: {}
+[5.600458] (-) TimerEvent: {}
+[5.701708] (-) TimerEvent: {}
+[5.802766] (-) TimerEvent: {}
+[5.903982] (-) TimerEvent: {}
+[6.004943] (-) TimerEvent: {}
+[6.106285] (-) TimerEvent: {}
+[6.209014] (-) TimerEvent: {}
+[6.311564] (-) TimerEvent: {}
+[6.413055] (-) TimerEvent: {}
+[6.521383] (-) TimerEvent: {}
+[6.622792] (-) TimerEvent: {}
+[6.723525] (-) TimerEvent: {}
+[6.828031] (-) TimerEvent: {}
+[6.934383] (-) TimerEvent: {}
+[7.038425] (-) TimerEvent: {}
+[7.139294] (-) TimerEvent: {}
+[7.240243] (-) TimerEvent: {}
+[7.341448] (-) TimerEvent: {}
+[7.442616] (-) TimerEvent: {}
+[7.543494] (-) TimerEvent: {}
+[7.644756] (-) TimerEvent: {}
+[7.646061] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbase_interfaces_demo/student.hpp: No such file or directory\n'}
+[7.646650] (cpp01_topic) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"base_interfaces_demo/student.hpp"\x1b[m\x1b[K\n'}
+[7.647136] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.647688] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[7.660337] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:76: CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o] Error 1\n'}
+[7.662791] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2\n'}
+[7.663283] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.724069] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbase_interfaces_demp/msg/student.hpp: No such file or directory\n'}
+[7.724873] (cpp01_topic) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"base_interfaces_demp/msg/student.hpp"\x1b[m\x1b[K\n'}
+[7.725546] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.726229] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[7.738493] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo_stu.dir/build.make:76: CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o] Error 1\n'}
+[7.739398] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo_stu.dir/all] Error 2\n'}
+[7.739981] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.745305] (-) TimerEvent: {}
+[7.755342] (cpp01_topic) CommandEnded: {'returncode': 2}
+[7.845767] (-) TimerEvent: {}
+[7.947215] (-) TimerEvent: {}
+[8.049649] (-) TimerEvent: {}
+[8.152773] (-) TimerEvent: {}
+[8.168503] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[8.170619] (-) EventReactorShutdown: {}

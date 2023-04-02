@@ -1,0 +1,11 @@
+[01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MinimalActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:139:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  139 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:136:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  136 |   GoalResponse handle_goal([01;35m[Kconst GoalUUID & uuid[m[K, std::shared_ptr<const typename Progress::Goal>)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse MinimalActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:143:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  143 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K

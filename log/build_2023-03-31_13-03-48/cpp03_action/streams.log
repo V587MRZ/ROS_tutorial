@@ -1,0 +1,54 @@
+[0.113s] Invoking command in '/home/levi/tut_interface/build/cpp03_action': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[0.354s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.186s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.554s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.582s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.642s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.759s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.334s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.350s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.087s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.914s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.404s] -- Found base_interfaces_demo: 0.0.0 (/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[4.688s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.064s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.066s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/levi/tut_interface/src/cpp03_action/include>
+[5.066s] -- Configured cppcheck exclude dirs and/or files: 
+[5.076s] -- Added test 'lint_cmake' to check CMake code style
+[5.103s] -- Added test 'uncrustify' to check C / C++ code style
+[5.103s] -- Configured uncrustify additional arguments: 
+[5.109s] -- Added test 'xmllint' to check XML markup files
+[5.124s] -- Configuring done
+[5.304s] -- Generating done
+[5.317s] -- Build files have been written to: /home/levi/tut_interface/build/cpp03_action
+[5.557s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[5.701s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[5.763s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[5.944s] [ 75%] [32m[1mLinking CXX executable demo02_action_client[0m
+[6.516s] [ 75%] Built target demo02_action_client
+[21.508s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[22.572s] [100%] Built target demo01_action_server
+[22.649s] Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[23.089s] Invoking command in '/home/levi/tut_interface/build/cpp03_action': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action
+[23.143s] -- Install configuration: ""
+[23.146s] -- Installing: /home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[23.151s] -- Set runtime path of "/home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[23.151s] -- Installing: /home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[23.154s] -- Set runtime path of "/home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""
+[23.155s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[23.156s] -- Installing: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[23.156s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[23.156s] -- Installing: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[23.159s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/path.sh
+[23.160s] -- Installing: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[23.161s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.bash
+[23.162s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.sh
+[23.163s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[23.163s] -- Installing: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[23.164s] -- Installing: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.dsv
+[23.166s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[23.167s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[23.167s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[23.168s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.xml
+[23.178s] Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action

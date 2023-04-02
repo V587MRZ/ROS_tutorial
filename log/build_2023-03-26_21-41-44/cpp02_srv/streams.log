@@ -1,0 +1,52 @@
+[0.091s] Invoking command in '/home/levi/tut_interface/build/cpp02_srv': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp02_srv -- -j6 -l6
+[0.490s] [35m[1mConsolidate compiler generated dependencies of target demo01_client[0m
+[0.567s] [ 50%] Built target demo01_server
+[0.588s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_client.dir/src/demo01_client.cpp.o[0m
+[14.052s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.056s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.056s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.056s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.057s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.057s]                  from [01m[K/home/levi/tut_interface/src/cpp02_srv/src/demo01_client.cpp:9[m[K:
+[14.057s] [01m[K/home/levi/tut_interface/src/cpp02_srv/src/demo01_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.058s] [01m[K/home/levi/tut_interface/src/cpp02_srv/src/demo01_client.cpp:59:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kbase_interfaces_demo::srv::AddInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[14.058s]    59 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Sum: %ld"[m[K, [32m[Kresult.get()->sum[m[K);
+[14.058s]       |                                                   [01;35m[K^~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+[14.058s]       |                                                                             [32m[K|[m[K
+[14.059s]       |                                                                             [32m[Kbase_interfaces_demo::srv::AddInts_Response_<std::allocator<void> >::_sum_type {aka int}[m[K
+[14.059s] [01m[K/home/levi/tut_interface/src/cpp02_srv/src/demo01_client.cpp:59:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[14.059s]    59 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: [01;36m[K%ld[m[K", result.get()->sum);
+[14.059s]       |                                                         [01;36m[K~~^[m[K
+[14.060s]       |                                                           [01;36m[K|[m[K
+[14.060s]       |                                                           [01;36m[Klong int[m[K
+[14.060s]       |                                                         [32m[K%d[m[K
+[18.413s] [100%] [32m[1mLinking CXX executable demo01_client[0m
+[19.531s] [100%] Built target demo01_client
+[19.610s] Invoked command in '/home/levi/tut_interface/build/cpp02_srv' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp02_srv -- -j6 -l6
+[20.019s] Invoking command in '/home/levi/tut_interface/build/cpp02_srv': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp02_srv
+[20.071s] -- Install configuration: ""
+[20.075s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_server
+[20.080s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client
+[20.095s] -- Set runtime path of "/home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client" to ""
+[20.097s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/package_run_dependencies/cpp02_srv
+[20.098s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/parent_prefix_path/cpp02_srv
+[20.098s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.sh
+[20.099s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.dsv
+[20.100s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.sh
+[20.100s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.dsv
+[20.102s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.bash
+[20.102s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.sh
+[20.103s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.zsh
+[20.103s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.dsv
+[20.105s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.dsv
+[20.111s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/packages/cpp02_srv
+[20.114s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig.cmake
+[20.114s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig-version.cmake
+[20.115s] -- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.xml
+[20.115s] Invoked command in '/home/levi/tut_interface/build/cpp02_srv' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp02_srv

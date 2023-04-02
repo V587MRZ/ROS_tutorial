@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/home/levi/tut_interface/src/base_interfaces_demo/include/**",
+                "/usr/include/**",
+                "/home/levi/tut_interface/**",
+                "/home/levi/tut_interface/install/base_interfaces_demo/include/**",
+                "${workspaceFolder}/install/base_interfaces_demo/include/base_interfaces_demo",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/rclcpp_action"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

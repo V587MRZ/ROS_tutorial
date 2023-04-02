@@ -1,0 +1,380 @@
+[0.000000] (-) TimerEvent: {}
+[0.001930] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002350] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/levi/tut_interface/install/base_interfaces_demo')])}
+[0.002671] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.084485] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.084727] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.084854] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/levi/tut_interface/build/cpp01_topic', '--', '-j6', '-l6'], 'cwd': '/home/levi/tut_interface/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/levi/tut_interface/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/levi/tut_interface/src'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/levi/tut_interface/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'levi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1291,unix/levi-virtual-machine:/tmp/.ICE-unix/1291'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da11ff46_de30_4067_bfa7_0a2d66f87202'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0X8111'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/levi/tut_interface/build/cpp01_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.097838] (-) TimerEvent: {}
+[0.212167] (-) TimerEvent: {}
+[0.313143] (-) TimerEvent: {}
+[0.416456] (-) TimerEvent: {}
+[0.517524] (-) TimerEvent: {}
+[0.623848] (-) TimerEvent: {}
+[0.725110] (-) TimerEvent: {}
+[0.826830] (-) TimerEvent: {}
+[0.892008] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o\x1b[0m\n'}
+[0.894065] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o\x1b[0m\n'}
+[0.927561] (-) TimerEvent: {}
+[1.029484] (-) TimerEvent: {}
+[1.135329] (-) TimerEvent: {}
+[1.236900] (-) TimerEvent: {}
+[1.338360] (-) TimerEvent: {}
+[1.439978] (-) TimerEvent: {}
+[1.542061] (-) TimerEvent: {}
+[1.643602] (-) TimerEvent: {}
+[1.745171] (-) TimerEvent: {}
+[1.847792] (-) TimerEvent: {}
+[1.949611] (-) TimerEvent: {}
+[2.050493] (-) TimerEvent: {}
+[2.153607] (-) TimerEvent: {}
+[2.255183] (-) TimerEvent: {}
+[2.359359] (-) TimerEvent: {}
+[2.467365] (-) TimerEvent: {}
+[2.573990] (-) TimerEvent: {}
+[2.675148] (-) TimerEvent: {}
+[2.776858] (-) TimerEvent: {}
+[2.877888] (-) TimerEvent: {}
+[2.979411] (-) TimerEvent: {}
+[3.080961] (-) TimerEvent: {}
+[3.182138] (-) TimerEvent: {}
+[3.283495] (-) TimerEvent: {}
+[3.385890] (-) TimerEvent: {}
+[3.487575] (-) TimerEvent: {}
+[3.588949] (-) TimerEvent: {}
+[3.691231] (-) TimerEvent: {}
+[3.792348] (-) TimerEvent: {}
+[3.894480] (-) TimerEvent: {}
+[3.996699] (-) TimerEvent: {}
+[4.098913] (-) TimerEvent: {}
+[4.200089] (-) TimerEvent: {}
+[4.301634] (-) TimerEvent: {}
+[4.405308] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbase_interfaces_demo/student.hpp: No such file or directory\n'}
+[4.405774] (-) TimerEvent: {}
+[4.406077] (cpp01_topic) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"base_interfaces_demo/student.hpp"\x1b[m\x1b[K\n'}
+[4.406378] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.408392] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[4.415823] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:76: CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o] Error 1\n'}
+[4.416597] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2\n'}
+[4.417133] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.506387] (-) TimerEvent: {}
+[4.607540] (-) TimerEvent: {}
+[4.708581] (-) TimerEvent: {}
+[4.809323] (-) TimerEvent: {}
+[4.910359] (-) TimerEvent: {}
+[5.011957] (-) TimerEvent: {}
+[5.113041] (-) TimerEvent: {}
+[5.214015] (-) TimerEvent: {}
+[5.314750] (-) TimerEvent: {}
+[5.415629] (-) TimerEvent: {}
+[5.516519] (-) TimerEvent: {}
+[5.617640] (-) TimerEvent: {}
+[5.718686] (-) TimerEvent: {}
+[5.819671] (-) TimerEvent: {}
+[5.920714] (-) TimerEvent: {}
+[6.023362] (-) TimerEvent: {}
+[6.124577] (-) TimerEvent: {}
+[6.225843] (-) TimerEvent: {}
+[6.326844] (-) TimerEvent: {}
+[6.427698] (-) TimerEvent: {}
+[6.528551] (-) TimerEvent: {}
+[6.630534] (-) TimerEvent: {}
+[6.731935] (-) TimerEvent: {}
+[6.832973] (-) TimerEvent: {}
+[6.935625] (-) TimerEvent: {}
+[7.036629] (-) TimerEvent: {}
+[7.137477] (-) TimerEvent: {}
+[7.238258] (-) TimerEvent: {}
+[7.339136] (-) TimerEvent: {}
+[7.440051] (-) TimerEvent: {}
+[7.541307] (-) TimerEvent: {}
+[7.642576] (-) TimerEvent: {}
+[7.743722] (-) TimerEvent: {}
+[7.845099] (-) TimerEvent: {}
+[7.946187] (-) TimerEvent: {}
+[8.047051] (-) TimerEvent: {}
+[8.147702] (-) TimerEvent: {}
+[8.249024] (-) TimerEvent: {}
+[8.350150] (-) TimerEvent: {}
+[8.451768] (-) TimerEvent: {}
+[8.554720] (-) TimerEvent: {}
+[8.655959] (-) TimerEvent: {}
+[8.756835] (-) TimerEvent: {}
+[8.857855] (-) TimerEvent: {}
+[8.959345] (-) TimerEvent: {}
+[9.060842] (-) TimerEvent: {}
+[9.162759] (-) TimerEvent: {}
+[9.264118] (-) TimerEvent: {}
+[9.364813] (-) TimerEvent: {}
+[9.466110] (-) TimerEvent: {}
+[9.567971] (-) TimerEvent: {}
+[9.668932] (-) TimerEvent: {}
+[9.769882] (-) TimerEvent: {}
+[9.871537] (-) TimerEvent: {}
+[9.973153] (-) TimerEvent: {}
+[10.075168] (-) TimerEvent: {}
+[10.176737] (-) TimerEvent: {}
+[10.277752] (-) TimerEvent: {}
+[10.379450] (-) TimerEvent: {}
+[10.480553] (-) TimerEvent: {}
+[10.581989] (-) TimerEvent: {}
+[10.683369] (-) TimerEvent: {}
+[10.784466] (-) TimerEvent: {}
+[10.884973] (-) TimerEvent: {}
+[10.987153] (-) TimerEvent: {}
+[11.087987] (-) TimerEvent: {}
+[11.188753] (-) TimerEvent: {}
+[11.289500] (-) TimerEvent: {}
+[11.390218] (-) TimerEvent: {}
+[11.491316] (-) TimerEvent: {}
+[11.592699] (-) TimerEvent: {}
+[11.693939] (-) TimerEvent: {}
+[11.794767] (-) TimerEvent: {}
+[11.895901] (-) TimerEvent: {}
+[11.997230] (-) TimerEvent: {}
+[12.098523] (-) TimerEvent: {}
+[12.199312] (-) TimerEvent: {}
+[12.300030] (-) TimerEvent: {}
+[12.400852] (-) TimerEvent: {}
+[12.501740] (-) TimerEvent: {}
+[12.602801] (-) TimerEvent: {}
+[12.704011] (-) TimerEvent: {}
+[12.804900] (-) TimerEvent: {}
+[12.906031] (-) TimerEvent: {}
+[13.007186] (-) TimerEvent: {}
+[13.108161] (-) TimerEvent: {}
+[13.209396] (-) TimerEvent: {}
+[13.310790] (-) TimerEvent: {}
+[13.412235] (-) TimerEvent: {}
+[13.513508] (-) TimerEvent: {}
+[13.614772] (-) TimerEvent: {}
+[13.722176] (-) TimerEvent: {}
+[13.824286] (-) TimerEvent: {}
+[13.925420] (-) TimerEvent: {}
+[14.026520] (-) TimerEvent: {}
+[14.128054] (-) TimerEvent: {}
+[14.229127] (-) TimerEvent: {}
+[14.330025] (-) TimerEvent: {}
+[14.431630] (-) TimerEvent: {}
+[14.532619] (-) TimerEvent: {}
+[14.633333] (-) TimerEvent: {}
+[14.734379] (-) TimerEvent: {}
+[14.839356] (-) TimerEvent: {}
+[14.943049] (-) TimerEvent: {}
+[15.043825] (-) TimerEvent: {}
+[15.145021] (-) TimerEvent: {}
+[15.246136] (-) TimerEvent: {}
+[15.347047] (-) TimerEvent: {}
+[15.447949] (-) TimerEvent: {}
+[15.553215] (-) TimerEvent: {}
+[15.654736] (-) TimerEvent: {}
+[15.756093] (-) TimerEvent: {}
+[15.797340] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:5:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_interface_demo\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[15.799467] (cpp01_topic) StderrLine: {'line': b'    5 | using \x1b[01;31m\x1b[Kbase_interface_demo\x1b[m\x1b[K::msg::Student;\n'}
+[15.799928] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.803489] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStudent\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.804994] (cpp01_topic) StderrLine: {'line': b'   27 |   rclcpp::Publisher<\x1b[01;31m\x1b[KStudent\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[15.806176] (cpp01_topic) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.806814] (cpp01_topic) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\n'}
+[15.809690] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp:7\x1b[m\x1b[K,\n'}
+[15.810250] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2\x1b[m\x1b[K:\n'}
+[15.812310] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[15.813570] (cpp01_topic) StderrLine: {'line': b'  150 | using \x1b[01;36m\x1b[KStudent\x1b[m\x1b[K =\n'}
+[15.815095] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.815254] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[15.815366] (cpp01_topic) StderrLine: {'line': b'   27 |   rclcpp::Publisher<Student\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[15.816218] (cpp01_topic) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[15.816345] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[15.816455] (cpp01_topic) StderrLine: {'line': b'   27 |   rclcpp::Publisher<Student>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[15.816565] (cpp01_topic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.816674] (cpp01_topic) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[15.823321] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:27:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.828966] (cpp01_topic) StderrLine: {'line': b'   27 |   rclcpp::Publisher<Student>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[15.829551] (cpp01_topic) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.829838] (cpp01_topic) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[15.838231] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.838867] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.840047] (cpp01_topic) StderrLine: {'line': b'   11 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<Student>("topic_stu", 10);\n'}
+[15.841485] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.842019] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[15.842661] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStudent\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.843338] (cpp01_topic) StderrLine: {'line': b'   11 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[KStudent\x1b[m\x1b[K>("topic_stu", 10);\n'}
+[15.843885] (cpp01_topic) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.844402] (cpp01_topic) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\n'}
+[15.847148] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp:7\x1b[m\x1b[K,\n'}
+[15.848060] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2\x1b[m\x1b[K:\n'}
+[15.848624] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[15.849141] (cpp01_topic) StderrLine: {'line': b'  150 | using \x1b[01;36m\x1b[KStudent\x1b[m\x1b[K =\n'}
+[15.849646] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.850152] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [10], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.850665] (cpp01_topic) StderrLine: {'line': b'   11 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<Student>("topic_stu", 10)\x1b[m\x1b[K;\n'}
+[15.851567] (cpp01_topic) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.852102] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[15.852626] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[15.854051] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.854593] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.855252] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.855811] (cpp01_topic) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[15.856279] (-) TimerEvent: {}
+[15.856931] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.857454] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.857969] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:11:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[15.858480] (cpp01_topic) StderrLine: {'line': b'   11 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<Student>("topic_stu", 10)\x1b[m\x1b[K;\n'}
+[15.862208] (cpp01_topic) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.881283] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.882476] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:18:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStudent\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.883213] (cpp01_topic) StderrLine: {'line': b'   18 |     auto stu = \x1b[01;31m\x1b[KStudent\x1b[m\x1b[K();\n'}
+[15.885275] (cpp01_topic) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.885915] (cpp01_topic) StderrLine: {'line': b'      |                \x1b[32m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\n'}
+[15.887097] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp:7\x1b[m\x1b[K,\n'}
+[15.887780] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2\x1b[m\x1b[K:\n'}
+[15.888183] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_interfaces_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[15.888884] (cpp01_topic) StderrLine: {'line': b'  150 | using \x1b[01;36m\x1b[KStudent\x1b[m\x1b[K =\n'}
+[15.889467] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.889750] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.890835] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.895310] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.898798] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.899582] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.899886] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.900218] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.900525] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.900830] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.901127] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.901876] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.902189] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::get_logger(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.902523] (cpp01_topic) StderrLine: {'line': b'   22 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis->get_logger("logger name")\x1b[m\x1b[K,\n'}
+[15.902779] (cpp01_topic) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.903137] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[15.903406] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[15.903644] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.903917] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.904215] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.904514] (cpp01_topic) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[15.904797] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.905066] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[15.905342] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.905629] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.905936] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.906233] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.906513] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.906787] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.907176] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.907461] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.907749] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.908024] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.908296] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.908592] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::get_logger(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.908870] (cpp01_topic) StderrLine: {'line': b'   22 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis->get_logger("logger name")\x1b[m\x1b[K,\n'}
+[15.909107] (cpp01_topic) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.909411] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[15.909649] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[15.909883] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.910127] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.910402] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.910685] (cpp01_topic) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[15.911085] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.912153] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[15.912453] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.912729] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.913240] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.913699] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.915168] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.915488] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.915783] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.916078] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.916375] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.916664] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.916960] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.917255] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[15.917884] (cpp01_topic) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("logger name"),\n'}
+[15.918448] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.919199] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.919880] (cpp01_topic) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("logger name"),\n'}
+[15.920452] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.921025] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[15.921583] (cpp01_topic) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("logger name"),\n'}
+[15.922277] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.922858] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.923625] (cpp01_topic) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("logger name"),\n'}
+[15.924183] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.924740] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[15.925317] (cpp01_topic) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger("logger name"),\n'}
+[15.925468] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.925604] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[15.925755] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.925953] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.926109] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.926244] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.926719] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.927189] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.927687] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.928054] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.928375] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.928681] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.928964] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.929712] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::get_logger(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.931086] (cpp01_topic) StderrLine: {'line': b'   22 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis->get_logger("logger name")\x1b[m\x1b[K,\n'}
+[15.931576] (cpp01_topic) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.932024] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[15.932418] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[15.932798] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.933211] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.933620] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.934031] (cpp01_topic) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[15.934427] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.934840] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[15.935359] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[15.935738] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.936114] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.936612] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.937033] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.937575] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.937981] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.938367] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.938724] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.939207] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.939481] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.939747] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.940017] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:22:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::get_logger(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.940289] (cpp01_topic) StderrLine: {'line': b'   22 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis->get_logger("logger name")\x1b[m\x1b[K,\n'}
+[15.940553] (cpp01_topic) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.940819] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[15.941134] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[15.941412] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.941680] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:1\x1b[m\x1b[K:\n'}
+[15.941946] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.942215] (cpp01_topic) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[15.942480] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.942739] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[15.943065] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.943347] (cpp01_topic) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(stu);\n'}
+[15.943608] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.943872] (cpp01_topic) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[15.956558] (-) TimerEvent: {}
+[16.057677] (-) TimerEvent: {}
+[16.159142] (-) TimerEvent: {}
+[16.260415] (-) TimerEvent: {}
+[16.361926] (-) TimerEvent: {}
+[16.463099] (-) TimerEvent: {}
+[16.563838] (-) TimerEvent: {}
+[16.667839] (-) TimerEvent: {}
+[16.769036] (-) TimerEvent: {}
+[16.870129] (-) TimerEvent: {}
+[16.971565] (-) TimerEvent: {}
+[17.072749] (-) TimerEvent: {}
+[17.174173] (-) TimerEvent: {}
+[17.276602] (-) TimerEvent: {}
+[17.377899] (-) TimerEvent: {}
+[17.479314] (-) TimerEvent: {}
+[17.580284] (-) TimerEvent: {}
+[17.637278] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo_stu.dir/build.make:76: CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o] Error 1\n'}
+[17.638264] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo_stu.dir/all] Error 2\n'}
+[17.639912] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.651254] (cpp01_topic) CommandEnded: {'returncode': 2}
+[17.680876] (-) TimerEvent: {}
+[17.781746] (-) TimerEvent: {}
+[17.883331] (-) TimerEvent: {}
+[17.984443] (-) TimerEvent: {}
+[18.035364] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[18.041064] (-) EventReactorShutdown: {}

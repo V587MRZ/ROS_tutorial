@@ -1,0 +1,30 @@
+[0.123s] Invoking command in '/home/levi/tut_interface/build/cpp02_srv': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp02_srv -- -j6 -l6
+[0.454s] [35m[1mConsolidate compiler generated dependencies of target demo01_client[0m
+[0.455s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.538s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_client.dir/src/demo01_client.cpp.o[0m
+[0.632s] [ 75%] Built target demo01_server
+[0.917s] [100%] [32m[1mLinking CXX executable demo01_client[0m
+[1.464s] [100%] Built target demo01_client
+[1.526s] Invoked command in '/home/levi/tut_interface/build/cpp02_srv' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp02_srv -- -j6 -l6
+[1.937s] Invoking command in '/home/levi/tut_interface/build/cpp02_srv': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp02_srv
+[2.024s] -- Install configuration: ""
+[2.024s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_server
+[2.041s] -- Set runtime path of "/home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_server" to ""
+[2.042s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client
+[2.047s] -- Set runtime path of "/home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client" to ""
+[2.048s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/package_run_dependencies/cpp02_srv
+[2.049s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/parent_prefix_path/cpp02_srv
+[2.051s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.sh
+[2.052s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.dsv
+[2.053s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.sh
+[2.054s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.dsv
+[2.056s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.bash
+[2.057s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.sh
+[2.058s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.zsh
+[2.059s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.dsv
+[2.061s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.dsv
+[2.063s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/packages/cpp02_srv
+[2.064s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig.cmake
+[2.066s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig-version.cmake
+[2.067s] -- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.xml
+[2.087s] Invoked command in '/home/levi/tut_interface/build/cpp02_srv' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp02_srv

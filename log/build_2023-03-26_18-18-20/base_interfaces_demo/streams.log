@@ -1,0 +1,207 @@
+[0.082s] Invoking command in '/home/levi/tut_interface/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/base_interfaces_demo -- -j6 -l6
+[0.243s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.889s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.911s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.083s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.344s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.636s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.744s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.745s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.746s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.798s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.841s] -- Configuring done
+[5.087s] -- Generating done
+[5.111s] -- Build files have been written to: /home/levi/tut_interface/build/base_interfaces_demo
+[5.315s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_c[0m
+[5.418s] [  2%] Built target base_interfaces_demo__cpp
+[5.516s] [ 12%] Built target base_interfaces_demo__rosidl_generator_c
+[5.523s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_cpp[0m
+[5.563s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp[0m
+[5.572s] [ 12%] Built target ament_cmake_python_copy_base_interfaces_demo
+[5.653s] [ 23%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[5.660s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c[0m
+[5.666s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_cpp[0m
+[5.685s] [ 33%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[5.693s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c[0m
+[5.700s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c[0m
+[5.841s] [ 43%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[5.862s] [ 56%] Built target base_interfaces_demo__rosidl_typesupport_c
+[5.869s] [ 64%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[5.911s] [ 74%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[6.074s] [ 74%] Built target base_interfaces_demo
+[6.246s] [ 76%] Built target base_interfaces_demo__py
+[6.329s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_py[0m
+[6.468s] [ 84%] Built target base_interfaces_demo__rosidl_generator_py
+[6.579s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c__pyext[0m
+[6.597s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.597s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext[0m
+[6.793s] [ 89%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[6.794s] [ 94%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[6.811s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[7.027s] running egg_info
+[7.029s] writing base_interfaces_demo.egg-info/PKG-INFO
+[7.031s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[7.032s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[7.040s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[7.042s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[7.145s] [100%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[7.228s] Invoked command in '/home/levi/tut_interface/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/base_interfaces_demo -- -j6 -l6
+[8.439s] Invoking command in '/home/levi/tut_interface/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/base_interfaces_demo
+[8.501s] -- Install configuration: ""
+[8.504s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[8.505s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[8.506s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[8.508s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[8.509s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[8.511s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[8.513s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[8.514s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[8.516s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[8.518s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[8.519s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[8.521s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[8.522s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h
+[8.522s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h
+[8.522s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h
+[8.524s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c
+[8.525s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h
+[8.526s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[8.527s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[8.531s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[8.535s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[8.536s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[8.539s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[8.543s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[8.544s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.544s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[8.544s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[8.544s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h
+[8.545s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[8.549s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[8.549s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[8.550s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[8.550s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[8.550s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[8.551s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.552s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[8.553s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[8.553s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[8.554s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
+[8.554s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[8.562s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[8.566s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[8.567s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[8.569s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[8.570s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[8.570s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[8.570s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[8.571s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[8.572s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[8.572s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[8.574s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp
+[8.575s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp
+[8.576s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp
+[8.576s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp
+[8.577s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[8.578s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[8.579s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[8.580s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[8.580s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[8.581s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.581s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[8.582s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[8.586s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[8.586s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.587s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[8.587s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[8.588s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[8.588s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[8.588s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[8.590s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[8.590s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[8.590s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[8.592s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp
+[8.592s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp
+[8.593s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[8.595s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[8.596s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[8.596s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[8.596s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info
+[8.597s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.598s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.602s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[8.605s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+[8.605s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo
+[8.611s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg
+[8.612s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c
+[8.613s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py
+[8.614s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py
+[8.614s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[8.621s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+[8.622s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.622s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.622s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv
+[8.622s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints_s.c
+[8.623s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py
+[8.624s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py
+[8.625s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.625s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py
+[8.625s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[8.626s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.783s] Listing '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...
+[8.783s] Compiling '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...
+[8.784s] Listing '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...
+[8.784s] Listing '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...
+[8.788s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.793s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.798s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.803s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[8.806s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[8.806s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl
+[8.807s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[8.813s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/src/AddInts.srv
+[8.816s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/src/AddInts_Request.msg
+[8.818s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/src/AddInts_Response.msg
+[8.819s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[8.821s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[8.821s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[8.822s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[8.823s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[8.825s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[8.825s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[8.827s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[8.828s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[8.829s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[8.831s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[8.832s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[8.833s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[8.833s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[8.835s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[8.841s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.841s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[8.842s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.847s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[8.848s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[8.849s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[8.850s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.851s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.851s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[8.851s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.852s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[8.852s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[8.852s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[8.853s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[8.853s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[8.853s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.853s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[8.854s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[8.854s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.854s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.854s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.855s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[8.855s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[8.855s] -- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[8.862s] Invoked command in '/home/levi/tut_interface/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/base_interfaces_demo

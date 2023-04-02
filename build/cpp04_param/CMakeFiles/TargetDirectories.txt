@@ -1,0 +1,12 @@
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/uninstall.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/cpp04_param_uninstall.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/demo01_param_server.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/demo02_param_client.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/demo00_param.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/test.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/edit_cache.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/rebuild_cache.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/list_install_components.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/install.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/install/local.dir
+/home/levi/tut_interface/build/cpp04_param/CMakeFiles/install/strip.dir

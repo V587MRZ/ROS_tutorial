@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.009875] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.010096] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.010252] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.087008] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.095469] (-) TimerEvent: {}
+[0.098360] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.104420] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/levi/tut_interface/build/base_interfaces_demo', '--', '-j6', '-l6'], 'cwd': '/home/levi/tut_interface/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/levi/tut_interface/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/levi/tut_interface/src'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/levi/tut_interface/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'levi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1291,unix/levi-virtual-machine:/tmp/.ICE-unix/1291'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da11ff46_de30_4067_bfa7_0a2d66f87202'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0X8111'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/levi/tut_interface/build/base_interfaces_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.195805] (-) TimerEvent: {}
+[0.297154] (-) TimerEvent: {}
+[0.398771] (-) TimerEvent: {}
+[0.446338] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499255] (-) TimerEvent: {}
+[0.600551] (-) TimerEvent: {}
+[0.701977] (-) TimerEvent: {}
+[0.803393] (-) TimerEvent: {}
+[0.904392] (-) TimerEvent: {}
+[1.005028] (-) TimerEvent: {}
+[1.105658] (-) TimerEvent: {}
+[1.202350] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.206046] (-) TimerEvent: {}
+[1.216608] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.238711] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.306517] (-) TimerEvent: {}
+[1.407398] (-) TimerEvent: {}
+[1.437752] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.507776] (-) TimerEvent: {}
+[1.613170] (-) TimerEvent: {}
+[1.714188] (-) TimerEvent: {}
+[1.815139] (-) TimerEvent: {}
+[1.916277] (-) TimerEvent: {}
+[2.017495] (-) TimerEvent: {}
+[2.118580] (-) TimerEvent: {}
+[2.219545] (-) TimerEvent: {}
+[2.320407] (-) TimerEvent: {}
+[2.423319] (-) TimerEvent: {}
+[2.524547] (-) TimerEvent: {}
+[2.625777] (-) TimerEvent: {}
+[2.726648] (-) TimerEvent: {}
+[2.784393] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.827141] (-) TimerEvent: {}
+[2.928272] (-) TimerEvent: {}
+[3.032617] (-) TimerEvent: {}
+[3.133687] (-) TimerEvent: {}
+[3.234946] (-) TimerEvent: {}
+[3.336010] (-) TimerEvent: {}
+[3.437353] (-) TimerEvent: {}
+[3.538529] (-) TimerEvent: {}
+[3.640158] (-) TimerEvent: {}
+[3.687150] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.740717] (-) TimerEvent: {}
+[3.842446] (-) TimerEvent: {}
+[3.943790] (-) TimerEvent: {}
+[4.045060] (-) TimerEvent: {}
+[4.145992] (-) TimerEvent: {}
+[4.247026] (-) TimerEvent: {}
+[4.347774] (-) TimerEvent: {}
+[4.448613] (-) TimerEvent: {}
+[4.549622] (-) TimerEvent: {}
+[4.650927] (-) TimerEvent: {}
+[4.752131] (-) TimerEvent: {}
+[4.853130] (-) TimerEvent: {}
+[4.872755] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.953519] (-) TimerEvent: {}
+[5.002837] (base_interfaces_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.057018] (-) TimerEvent: {}
+[5.118344] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.118947] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.119412] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.157523] (-) TimerEvent: {}
+[5.181988] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.258023] (-) TimerEvent: {}
+[5.266680] (base_interfaces_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.358335] (-) TimerEvent: {}
+[5.459146] (-) TimerEvent: {}
+[5.559876] (-) TimerEvent: {}
+[5.660665] (-) TimerEvent: {}
+[5.754108] (base_interfaces_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[5.761295] (-) TimerEvent: {}
+[5.788247] (base_interfaces_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/levi/tut_interface/build/base_interfaces_demo\n'}
+[5.861811] (-) TimerEvent: {}
+[5.962897] (-) TimerEvent: {}
+[5.983627] (base_interfaces_demo) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.063380] (-) TimerEvent: {}
+[6.102663] (base_interfaces_demo) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.163706] (-) TimerEvent: {}
+[6.184238] (base_interfaces_demo) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_base_interfaces_demo\n'}
+[6.264025] (-) TimerEvent: {}
+[6.369039] (-) TimerEvent: {}
+[6.469703] (-) TimerEvent: {}
+[6.571525] (-) TimerEvent: {}
+[6.675596] (-) TimerEvent: {}
+[6.777560] (-) TimerEvent: {}
+[6.878270] (-) TimerEvent: {}
+[6.984550] (-) TimerEvent: {}
+[7.093224] (-) TimerEvent: {}
+[7.163887] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_c\x1b[0m\n'}
+[7.194352] (-) TimerEvent: {}
+[7.262781] (base_interfaces_demo) StdoutLine: {'line': b'[  5%] Built target base_interfaces_demo__cpp\n'}
+[7.294638] (-) TimerEvent: {}
+[7.306827] (base_interfaces_demo) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o\x1b[0m\n'}
+[7.349933] (base_interfaces_demo) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o\x1b[0m\n'}
+[7.354107] (base_interfaces_demo) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.394818] (-) TimerEvent: {}
+[7.433674] (base_interfaces_demo) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.485128] (base_interfaces_demo) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.495982] (-) TimerEvent: {}
+[7.550062] (base_interfaces_demo) StdoutLine: {'line': b'running egg_info\n'}
+[7.551605] (base_interfaces_demo) StdoutLine: {'line': b'writing base_interfaces_demo.egg-info/PKG-INFO\n'}
+[7.556359] (base_interfaces_demo) StdoutLine: {'line': b'writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt\n'}
+[7.556964] (base_interfaces_demo) StdoutLine: {'line': b'writing top-level names to base_interfaces_demo.egg-info/top_level.txt\n'}
+[7.560742] (base_interfaces_demo) StdoutLine: {'line': b"reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[7.575850] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[7.606957] (-) TimerEvent: {}
+[7.711601] (-) TimerEvent: {}
+[7.753390] (base_interfaces_demo) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_base_interfaces_demo_egg\n'}
+[7.814066] (-) TimerEvent: {}
+[7.920644] (-) TimerEvent: {}
+[8.025166] (-) TimerEvent: {}
+[8.129311] (-) TimerEvent: {}
+[8.201219] (base_interfaces_demo) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so\x1b[0m\n'}
+[8.231260] (-) TimerEvent: {}
+[8.333218] (-) TimerEvent: {}
+[8.437024] (-) TimerEvent: {}
+[8.445302] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.479817] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.529487] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.541376] (-) TimerEvent: {}
+[8.555653] (base_interfaces_demo) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[8.641897] (-) TimerEvent: {}
+[8.649240] (base_interfaces_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/add_ints__type_support.cpp.o\x1b[0m\n'}
+[8.716181] (base_interfaces_demo) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/add_ints__type_support.cpp.o\x1b[0m\n'}
+[8.716409] (base_interfaces_demo) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[8.742156] (-) TimerEvent: {}
+[8.789128] (base_interfaces_demo) StdoutLine: {'line': b'[ 30%] Built target base_interfaces_demo__rosidl_generator_c\n'}
+[8.801423] (base_interfaces_demo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[8.843704] (-) TimerEvent: {}
+[8.912974] (base_interfaces_demo) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.944156] (-) TimerEvent: {}
+[9.045548] (-) TimerEvent: {}
+[9.146310] (-) TimerEvent: {}
+[9.250866] (-) TimerEvent: {}
+[9.359453] (-) TimerEvent: {}
+[9.461226] (-) TimerEvent: {}
+[9.563180] (-) TimerEvent: {}
+[9.664061] (-) TimerEvent: {}
+[9.769275] (-) TimerEvent: {}
+[9.869948] (-) TimerEvent: {}
+[9.976215] (-) TimerEvent: {}
+[10.077588] (-) TimerEvent: {}
+[10.178897] (-) TimerEvent: {}
+[10.280423] (-) TimerEvent: {}
+[10.385734] (-) TimerEvent: {}
+[10.405902] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.486252] (-) TimerEvent: {}
+[10.587551] (-) TimerEvent: {}
+[10.631390] (base_interfaces_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[10.688116] (-) TimerEvent: {}
+[10.792116] (-) TimerEvent: {}
+[10.893799] (-) TimerEvent: {}
+[10.981650] (base_interfaces_demo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.cpp.o\x1b[0m\n'}
+[10.994196] (-) TimerEvent: {}
+[11.073574] (base_interfaces_demo) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.094522] (-) TimerEvent: {}
+[11.196717] (-) TimerEvent: {}
+[11.245920] (base_interfaces_demo) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/add_ints__type_support_c.cpp.o\x1b[0m\n'}
+[11.297148] (-) TimerEvent: {}
+[11.405032] (-) TimerEvent: {}
+[11.510660] (-) TimerEvent: {}
+[11.541535] (base_interfaces_demo) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.596414] (base_interfaces_demo) StdoutLine: {'line': b'[ 48%] Built target base_interfaces_demo__rosidl_typesupport_cpp\n'}
+[11.611025] (-) TimerEvent: {}
+[11.645544] (base_interfaces_demo) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.711539] (-) TimerEvent: {}
+[11.725861] (base_interfaces_demo) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.811964] (-) TimerEvent: {}
+[11.916908] (-) TimerEvent: {}
+[12.017722] (-) TimerEvent: {}
+[12.118508] (-) TimerEvent: {}
+[12.219224] (-) TimerEvent: {}
+[12.320085] (-) TimerEvent: {}
+[12.422391] (-) TimerEvent: {}
+[12.491588] (base_interfaces_demo) StdoutLine: {'line': b'[ 53%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[12.522721] (-) TimerEvent: {}
+[12.623626] (-) TimerEvent: {}
+[12.625029] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c\x1b[0m\n'}
+[12.700357] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.711907] (base_interfaces_demo) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[12.729974] (-) TimerEvent: {}
+[12.769762] (base_interfaces_demo) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/add_ints__type_support.cpp.o\x1b[0m\n'}
+[12.830479] (-) TimerEvent: {}
+[12.885417] (base_interfaces_demo) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[12.886964] (base_interfaces_demo) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o\x1b[0m\n'}
+[12.930948] (-) TimerEvent: {}
+[13.032085] (-) TimerEvent: {}
+[13.133198] (-) TimerEvent: {}
+[13.165121] (base_interfaces_demo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.233480] (-) TimerEvent: {}
+[13.249942] (base_interfaces_demo) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.291078] (base_interfaces_demo) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.334065] (-) TimerEvent: {}
+[13.341436] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.438626] (-) TimerEvent: {}
+[13.540677] (-) TimerEvent: {}
+[13.619103] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__rosidl_typesupport_c\n'}
+[13.638931] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c\n'}
+[13.641395] (-) TimerEvent: {}
+[13.741825] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp\n'}
+[13.742243] (-) TimerEvent: {}
+[13.842946] (-) TimerEvent: {}
+[13.875711] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c\n'}
+[13.943504] (-) TimerEvent: {}
+[14.036312] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo\n'}
+[14.044070] (-) TimerEvent: {}
+[14.145713] (-) TimerEvent: {}
+[14.222897] (base_interfaces_demo) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.246166] (-) TimerEvent: {}
+[14.347387] (-) TimerEvent: {}
+[14.448182] (-) TimerEvent: {}
+[14.549247] (-) TimerEvent: {}
+[14.650288] (-) TimerEvent: {}
+[14.751255] (-) TimerEvent: {}
+[14.852072] (-) TimerEvent: {}
+[14.953217] (-) TimerEvent: {}
+[15.054149] (-) TimerEvent: {}
+[15.155041] (-) TimerEvent: {}
+[15.257051] (-) TimerEvent: {}
+[15.358644] (-) TimerEvent: {}
+[15.447433] (base_interfaces_demo) StdoutLine: {'line': b'[ 76%] Built target base_interfaces_demo__py\n'}
+[15.459197] (-) TimerEvent: {}
+[15.553170] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_py\x1b[0m\n'}
+[15.559561] (-) TimerEvent: {}
+[15.663412] (-) TimerEvent: {}
+[15.699433] (base_interfaces_demo) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o\x1b[0m\n'}
+[15.700623] (base_interfaces_demo) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c.o\x1b[0m\n'}
+[15.765353] (-) TimerEvent: {}
+[15.867327] (-) TimerEvent: {}
+[15.968508] (-) TimerEvent: {}
+[16.069373] (-) TimerEvent: {}
+[16.170265] (-) TimerEvent: {}
+[16.271367] (-) TimerEvent: {}
+[16.373438] (-) TimerEvent: {}
+[16.428232] (base_interfaces_demo) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\x1b[0m\n'}
+[16.474052] (-) TimerEvent: {}
+[16.575115] (-) TimerEvent: {}
+[16.676095] (-) TimerEvent: {}
+[16.721773] (base_interfaces_demo) StdoutLine: {'line': b'[ 84%] Built target base_interfaces_demo__rosidl_generator_py\n'}
+[16.776630] (-) TimerEvent: {}
+[16.816067] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[16.816520] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[16.828165] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[16.877019] (-) TimerEvent: {}
+[16.917938] (base_interfaces_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.956724] (base_interfaces_demo) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.958588] (base_interfaces_demo) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.977538] (-) TimerEvent: {}
+[17.078798] (-) TimerEvent: {}
+[17.179781] (-) TimerEvent: {}
+[17.281229] (-) TimerEvent: {}
+[17.382908] (-) TimerEvent: {}
+[17.486359] (-) TimerEvent: {}
+[17.502234] (base_interfaces_demo) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.575377] (base_interfaces_demo) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.586784] (-) TimerEvent: {}
+[17.676098] (base_interfaces_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.692102] (-) TimerEvent: {}
+[17.793217] (-) TimerEvent: {}
+[17.813186] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext\n'}
+[17.883985] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[17.893554] (-) TimerEvent: {}
+[17.963308] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.993891] (-) TimerEvent: {}
+[18.044365] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[18.094802] (-) TimerEvent: {}
+[18.196098] (-) TimerEvent: {}
+[18.297625] (-) TimerEvent: {}
+[18.399031] (-) TimerEvent: {}
+[18.500488] (-) TimerEvent: {}
+[18.602474] (-) TimerEvent: {}
+[18.703886] (-) TimerEvent: {}
+[18.805066] (-) TimerEvent: {}
+[18.906318] (-) TimerEvent: {}
+[19.007876] (-) TimerEvent: {}
+[19.108990] (-) TimerEvent: {}
+[19.209888] (-) TimerEvent: {}
+[19.270230] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[19.310525] (-) TimerEvent: {}
+[19.329372] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/levi/tut_interface/build/base_interfaces_demo'], 'cwd': '/home/levi/tut_interface/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/levi/tut_interface/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/levi/tut_interface/src'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/levi/tut_interface/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'levi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1291,unix/levi-virtual-machine:/tmp/.ICE-unix/1291'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da11ff46_de30_4067_bfa7_0a2d66f87202'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0X8111'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/levi/tut_interface/build/base_interfaces_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[19.387531] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.389351] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo\n'}
+[19.393351] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[19.394392] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[19.395271] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[19.395832] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h\n'}
+[19.397644] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c\n'}
+[19.400398] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h\n'}
+[19.402931] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h\n'}
+[19.411101] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h\n'}
+[19.411870] (-) TimerEvent: {}
+[19.412711] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.417741] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[19.417840] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[19.417923] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h\n'}
+[19.418539] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h\n'}
+[19.419944] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h\n'}
+[19.420554] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c\n'}
+[19.421316] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h\n'}
+[19.421860] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh\n'}
+[19.422487] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv\n'}
+[19.431883] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so\n'}
+[19.436719] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""\n'}
+[19.437780] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[19.438627] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[19.438921] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[19.439198] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[19.440503] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.441219] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[19.441867] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[19.442636] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[19.450114] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[19.458477] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.460580] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[19.468489] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[19.469035] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[19.469867] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c\n'}
+[19.470944] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[19.471955] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.472262] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[19.472547] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[19.472978] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c\n'}
+[19.473651] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h\n'}
+[19.477239] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\n'}
+[19.484117] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.486551] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so\n'}
+[19.491317] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""\n'}
+[19.492066] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[19.493686] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[19.494004] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[19.494288] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp\n'}
+[19.494581] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp\n'}
+[19.496213] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp\n'}
+[19.497066] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp\n'}
+[19.497374] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[19.497851] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[19.498129] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp\n'}
+[19.499665] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp\n'}
+[19.500420] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp\n'}
+[19.500659] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp\n'}
+[19.501493] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[19.502344] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[19.502824] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[19.503093] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps\n'}
+[19.503361] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.504473] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.505022] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[19.505550] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[19.505793] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps\n'}
+[19.506318] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.512312] (-) TimerEvent: {}
+[19.514673] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.527856] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.529835] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[19.530717] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[19.531003] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[19.531278] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp\n'}
+[19.531832] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.533483] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[19.535125] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[19.535722] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.537412] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp\n'}
+[19.543862] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[19.556113] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.561360] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so\n'}
+[19.567034] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[19.567854] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh\n'}
+[19.568145] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv\n'}
+[19.568714] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info\n'}
+[19.569838] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[19.570570] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[19.571137] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[19.571984] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[19.574322] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo\n'}
+[19.575934] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg\n'}
+[19.576715] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c\n'}
+[19.577789] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py\n'}
+[19.581505] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py\n'}
+[19.582909] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c\n'}
+[19.584218] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[19.586295] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.587765] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.589103] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv\n'}
+[19.589720] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints_s.c\n'}
+[19.592728] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py\n'}
+[19.593320] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py\n'}
+[19.593549] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.594041] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py\n'}
+[19.595122] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.596132] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.613158] (-) TimerEvent: {}
+[19.714284] (-) TimerEvent: {}
+[19.773907] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...\n"}
+[19.774721] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...\n"}
+[19.775322] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...\n"}
+[19.775888] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...\n"}
+[19.776484] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...\n"}
+[19.777568] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...\n"}
+[19.778145] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py'...\n"}
+[19.778707] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py'...\n"}
+[19.782986] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.788614] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.793222] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.797615] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.801592] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.807312] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.810190] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[19.814587] (-) TimerEvent: {}
+[19.817245] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/levi/tut_interface/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""\n'}
+[19.817746] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl\n'}
+[19.818387] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl\n'}
+[19.819361] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg\n'}
+[19.819890] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/src/AddInts.srv\n'}
+[19.820721] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/src/AddInts_Request.msg\n'}
+[19.822207] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/src/AddInts_Response.msg\n'}
+[19.823369] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[19.823899] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[19.825514] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[19.826547] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[19.827104] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[19.827380] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[19.828638] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[19.829573] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[19.830405] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[19.830972] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[19.832401] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[19.834969] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[19.836562] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake\n'}
+[19.837741] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.838886] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.840241] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.844126] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.844707] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.845954] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake\n'}
+[19.847674] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.849114] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake\n'}
+[19.851061] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.851629] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.852147] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.852675] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.854880] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake\n'}
+[19.855446] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.855904] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake\n'}
+[19.856407] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.857784] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[19.860773] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.861134] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.861330] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.861556] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.861657] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.861892] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.862009] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[19.862103] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[19.862259] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[19.876719] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[19.915142] (-) TimerEvent: {}
+[20.016440] (-) TimerEvent: {}
+[20.120276] (-) TimerEvent: {}
+[20.221772] (-) TimerEvent: {}
+[20.322731] (-) TimerEvent: {}
+[20.423781] (-) TimerEvent: {}
+[20.524496] (-) TimerEvent: {}
+[20.625750] (-) TimerEvent: {}
+[20.726921] (-) TimerEvent: {}
+[20.828162] (-) TimerEvent: {}
+[20.929555] (-) TimerEvent: {}
+[21.031045] (-) TimerEvent: {}
+[21.134161] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[21.139865] (-) TimerEvent: {}
+[21.140421] (-) EventReactorShutdown: {}

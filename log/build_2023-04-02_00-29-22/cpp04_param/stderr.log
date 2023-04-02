@@ -1,0 +1,4 @@
+[01m[K/home/levi/tut_interface/src/cpp04_param/src/demo02_param_client.cpp:[m[K In member function ‘[01m[Kvoid MinimalParamClient::get_param()[m[K’:
+[01m[K/home/levi/tut_interface/src/cpp04_param/src/demo02_param_client.cpp:24:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kweight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   24 |         double [01;35m[Kweight[m[K = param_client_->get_parameter<double>("car_weight");
+      |                [01;35m[K^~~~~~[m[K

@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.000840] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/levi/tut_interface/install/base_interfaces_demo')])}
+[0.001013] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.077385] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.081294] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.083127] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/levi/tut_interface/build/base_interfaces_demo', '--', '-j6', '-l6'], 'cwd': '/home/levi/tut_interface/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/levi/tut_interface/src'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'levi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1291,unix/levi-virtual-machine:/tmp/.ICE-unix/1291'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da11ff46_de30_4067_bfa7_0a2d66f87202'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0X8111'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/levi/tut_interface/build/base_interfaces_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095440] (-) TimerEvent: {}
+[0.211479] (-) TimerEvent: {}
+[0.302871] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.312754] (-) TimerEvent: {}
+[0.415136] (-) TimerEvent: {}
+[0.516710] (-) TimerEvent: {}
+[0.618229] (-) TimerEvent: {}
+[0.720176] (-) TimerEvent: {}
+[0.821862] (-) TimerEvent: {}
+[0.923423] (-) TimerEvent: {}
+[1.024913] (-) TimerEvent: {}
+[1.126377] (-) TimerEvent: {}
+[1.231422] (-) TimerEvent: {}
+[1.267299] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.303702] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.331478] (-) TimerEvent: {}
+[1.358501] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.433172] (-) TimerEvent: {}
+[1.534646] (-) TimerEvent: {}
+[1.635691] (-) TimerEvent: {}
+[1.737067] (-) TimerEvent: {}
+[1.741303] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.837471] (-) TimerEvent: {}
+[1.939226] (-) TimerEvent: {}
+[2.042113] (-) TimerEvent: {}
+[2.143196] (-) TimerEvent: {}
+[2.245116] (-) TimerEvent: {}
+[2.347217] (-) TimerEvent: {}
+[2.450349] (-) TimerEvent: {}
+[2.551194] (-) TimerEvent: {}
+[2.652534] (-) TimerEvent: {}
+[2.754959] (-) TimerEvent: {}
+[2.856703] (-) TimerEvent: {}
+[2.957958] (-) TimerEvent: {}
+[3.059399] (-) TimerEvent: {}
+[3.089102] (base_interfaces_demo) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[3.090173] (base_interfaces_demo) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[3.090838] (base_interfaces_demo) StderrLine: {'line': b'  base_interfaces_demo --arguments-file\n'}
+[3.091428] (base_interfaces_demo) StderrLine: {'line': b'  /home/levi/tut_interface/build/base_interfaces_demo/rosidl_adapter__arguments__base_interfaces_demo.json\n'}
+[3.092020] (base_interfaces_demo) StderrLine: {'line': b'  --output-dir\n'}
+[3.092916] (base_interfaces_demo) StderrLine: {'line': b'  /home/levi/tut_interface/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo\n'}
+[3.095598] (base_interfaces_demo) StderrLine: {'line': b'  --output-file\n'}
+[3.096698] (base_interfaces_demo) StderrLine: {'line': b'  /home/levi/tut_interface/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo.idls)\n'}
+[3.097393] (base_interfaces_demo) StderrLine: {'line': b'  returned error code 1:\n'}
+[3.097998] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[3.098582] (base_interfaces_demo) StderrLine: {'line': b"  Error processing 'float height' of 'base_interfaces_demo/Student': ''float'\n"}
+[3.099140] (base_interfaces_demo) StderrLine: {'line': b'  is an invalid message name.  It should have the pattern\n'}
+[3.099705] (base_interfaces_demo) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[3.100236] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[3.101005] (base_interfaces_demo) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[3.101559] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[3.102126] (base_interfaces_demo) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[3.105708] (base_interfaces_demo) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[3.107035] (base_interfaces_demo) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[3.107538] (base_interfaces_demo) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[3.107885] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[3.108240] (base_interfaces_demo) StderrLine: {'line': b'      sys.exit(main())\n'}
+[3.108718] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[3.109027] (base_interfaces_demo) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[3.109310] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[3.109593] (base_interfaces_demo) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[3.109879] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[3.110164] (base_interfaces_demo) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[3.110475] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[3.110754] (base_interfaces_demo) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[3.111048] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[3.111322] (base_interfaces_demo) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[3.111622] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[3.111893] (base_interfaces_demo) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[3.112161] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[3.112569] (base_interfaces_demo) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message\n"}
+[3.112849] (base_interfaces_demo) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[3.113123] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[3.113388] (base_interfaces_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.113631] (base_interfaces_demo) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[3.113908] (base_interfaces_demo) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.114151] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[3.114371] (base_interfaces_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[3.114685] (base_interfaces_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.114926] (base_interfaces_demo) StdoutLine: {'line': b'See also "/home/levi/tut_interface/build/base_interfaces_demo/CMakeFiles/CMakeOutput.log".\n'}
+[3.134931] (base_interfaces_demo) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[3.155785] (base_interfaces_demo) CommandEnded: {'returncode': 2}
+[3.159599] (-) TimerEvent: {}
+[3.261377] (-) TimerEvent: {}
+[3.363408] (-) TimerEvent: {}
+[3.481500] (-) TimerEvent: {}
+[3.575200] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 2}
+[3.582412] (-) TimerEvent: {}
+[3.588282] (cpp01_topic) JobSkipped: {'identifier': 'cpp01_topic'}
+[3.588614] (-) EventReactorShutdown: {}

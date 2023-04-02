@@ -1,0 +1,6 @@
+Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/levi/tut_interface/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/cpp04_param
+Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/levi/tut_interface/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/cpp04_param
+Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param
+Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_stu[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o[0m
+[01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/student.hpp: No such file or directory
+    2 | #include [01;31m[K"base_interfaces_demo/student.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:76: CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable demo_stu[0m
+[ 75%] Built target demo_stu
+gmake: *** [Makefile:146: all] Error 2

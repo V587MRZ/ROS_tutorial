@@ -1,0 +1,186 @@
+[1.257s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cpp04_param']
+[1.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cpp04_param'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f39dba4cd00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f39dc257160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f39dc257160>>)
+[1.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.371s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/levi/tut_interface'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[1.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[1.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['ignore', 'ignore_ament_install']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'ignore'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'ignore_ament_install'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['colcon_pkg']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'colcon_pkg'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['colcon_meta']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'colcon_meta'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['ros']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'ros'
+[1.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_srv' with type 'ros.ament_cmake' and name 'cpp02_srv'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ignore', 'ignore_ament_install']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore_ament_install'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_pkg']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_pkg'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_meta']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_meta'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ros']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ros'
+[1.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp03_action' with type 'ros.ament_cmake' and name 'cpp03_action'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['ignore', 'ignore_ament_install']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ignore'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ignore_ament_install'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['colcon_pkg']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'colcon_pkg'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['colcon_meta']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'colcon_meta'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['ros']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ros'
+[1.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp04_param' with type 'ros.ament_cmake' and name 'cpp04_param'
+[1.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'base_interfaces_demo' in 'src/base_interfaces_demo'
+[1.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp01_topic' in 'src/cpp01_topic'
+[1.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp02_srv' in 'src/cpp02_srv'
+[1.557s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp03_action' in 'src/cpp03_action'
+[1.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.570s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/levi/tut_interface/install
+[1.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/levi/tut_helloworld/install
+[1.584s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[1.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_args' from command line to 'None'
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target' from command line to 'None'
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_cache' from command line to 'False'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_first' from command line to 'False'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_force_configure' from command line to 'False'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'ament_cmake_args' from command line to 'None'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_cmake_args' from command line to 'None'
+[1.858s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.859s] DEBUG:colcon.colcon_core.verb:Building package 'cpp04_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/cpp04_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/cpp04_param', 'merge_install': False, 'path': '/home/levi/tut_interface/src/cpp04_param', 'symlink_install': False, 'test_result_base': None}
+[1.860s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.871s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.872s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/cpp04_param' with build type 'ament_cmake'
+[1.873s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/cpp04_param'
+[1.897s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.898s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.898s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[15.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[15.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param
+[16.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[16.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param
+[16.074s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake module files
+[16.076s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake config files
+[16.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[16.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[16.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[16.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[16.091s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib'
+[16.091s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[16.092s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[16.092s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/python3.10/site-packages'
+[16.093s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[16.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.ps1'
+[16.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.dsv'
+[16.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.sh'
+[16.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.bash'
+[16.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.zsh'
+[16.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[16.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[16.431s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake module files
+[16.433s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake config files
+[16.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[16.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[16.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[16.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[16.441s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib'
+[16.441s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[16.441s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[16.442s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/python3.10/site-packages'
+[16.443s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[16.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.ps1'
+[16.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.dsv'
+[16.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.sh'
+[16.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.bash'
+[16.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.zsh'
+[16.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[16.461s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.470s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.507s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.583s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.ps1'
+[16.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/levi/tut_interface/install/_local_setup_util_ps1.py'
+[16.595s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.ps1'
+[16.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.sh'
+[16.607s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/levi/tut_interface/install/_local_setup_util_sh.py'
+[16.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.sh'
+[16.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.bash'
+[16.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.bash'
+[16.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.zsh'
+[16.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.zsh'

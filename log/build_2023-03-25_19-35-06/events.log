@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.000942] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.001080] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/levi/tut_interface/install/base_interfaces_demo')])}
+[0.003915] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.095413] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.097999] (-) TimerEvent: {}
+[0.102068] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.106145] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/levi/tut_interface/build/cpp01_topic', '--', '-j6', '-l6'], 'cwd': '/home/levi/tut_interface/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/levi/tut_interface/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/levi/tut_interface/src'), ('TERM_PROGRAM_VERSION', '1.76.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/122/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/122/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/levi/tut_interface/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'levi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1291,unix/levi-virtual-machine:/tmp/.ICE-unix/1291'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da11ff46_de30_4067_bfa7_0a2d66f87202'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0X8111'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/122/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/levi/tut_interface/build/cpp01_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=41b63215c6220d81144a9ecc6417cf43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.198536] (-) TimerEvent: {}
+[0.299513] (-) TimerEvent: {}
+[0.400497] (-) TimerEvent: {}
+[0.422705] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo_stu\x1b[0m\n'}
+[0.499297] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o\x1b[0m\n'}
+[0.503009] (-) TimerEvent: {}
+[0.604371] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o\x1b[0m\n'}
+[0.605132] (-) TimerEvent: {}
+[0.706144] (-) TimerEvent: {}
+[0.811219] (-) TimerEvent: {}
+[0.918834] (-) TimerEvent: {}
+[1.020047] (-) TimerEvent: {}
+[1.121452] (-) TimerEvent: {}
+[1.222302] (-) TimerEvent: {}
+[1.326164] (-) TimerEvent: {}
+[1.426939] (-) TimerEvent: {}
+[1.527933] (-) TimerEvent: {}
+[1.630984] (-) TimerEvent: {}
+[1.735910] (-) TimerEvent: {}
+[1.837127] (-) TimerEvent: {}
+[1.939072] (-) TimerEvent: {}
+[2.040235] (-) TimerEvent: {}
+[2.141167] (-) TimerEvent: {}
+[2.242163] (-) TimerEvent: {}
+[2.344399] (-) TimerEvent: {}
+[2.446047] (-) TimerEvent: {}
+[2.551009] (-) TimerEvent: {}
+[2.652290] (-) TimerEvent: {}
+[2.752953] (-) TimerEvent: {}
+[2.855015] (-) TimerEvent: {}
+[2.956188] (-) TimerEvent: {}
+[3.057676] (-) TimerEvent: {}
+[3.158876] (-) TimerEvent: {}
+[3.178872] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbase_interfaces_demo/student.hpp: No such file or directory\n'}
+[3.179649] (cpp01_topic) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"base_interfaces_demo/student.hpp"\x1b[m\x1b[K\n'}
+[3.180170] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.180699] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[3.184562] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:76: CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o] Error 1\n'}
+[3.186384] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2\n'}
+[3.187763] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.259398] (-) TimerEvent: {}
+[3.360833] (-) TimerEvent: {}
+[3.461930] (-) TimerEvent: {}
+[3.563131] (-) TimerEvent: {}
+[3.664186] (-) TimerEvent: {}
+[3.765149] (-) TimerEvent: {}
+[3.866332] (-) TimerEvent: {}
+[3.968587] (-) TimerEvent: {}
+[4.069617] (-) TimerEvent: {}
+[4.170790] (-) TimerEvent: {}
+[4.271995] (-) TimerEvent: {}
+[4.373191] (-) TimerEvent: {}
+[4.474231] (-) TimerEvent: {}
+[4.575012] (-) TimerEvent: {}
+[4.675774] (-) TimerEvent: {}
+[4.776614] (-) TimerEvent: {}
+[4.877609] (-) TimerEvent: {}
+[4.978797] (-) TimerEvent: {}
+[5.079609] (-) TimerEvent: {}
+[5.180642] (-) TimerEvent: {}
+[5.281606] (-) TimerEvent: {}
+[5.382367] (-) TimerEvent: {}
+[5.483268] (-) TimerEvent: {}
+[5.584035] (-) TimerEvent: {}
+[5.685019] (-) TimerEvent: {}
+[5.786329] (-) TimerEvent: {}
+[5.888048] (-) TimerEvent: {}
+[5.989277] (-) TimerEvent: {}
+[6.090347] (-) TimerEvent: {}
+[6.191373] (-) TimerEvent: {}
+[6.292801] (-) TimerEvent: {}
+[6.395149] (-) TimerEvent: {}
+[6.496003] (-) TimerEvent: {}
+[6.596859] (-) TimerEvent: {}
+[6.698032] (-) TimerEvent: {}
+[6.799073] (-) TimerEvent: {}
+[6.900271] (-) TimerEvent: {}
+[7.001291] (-) TimerEvent: {}
+[7.102230] (-) TimerEvent: {}
+[7.203678] (-) TimerEvent: {}
+[7.304656] (-) TimerEvent: {}
+[7.405640] (-) TimerEvent: {}
+[7.506848] (-) TimerEvent: {}
+[7.607735] (-) TimerEvent: {}
+[7.708718] (-) TimerEvent: {}
+[7.810006] (-) TimerEvent: {}
+[7.911131] (-) TimerEvent: {}
+[8.012177] (-) TimerEvent: {}
+[8.112941] (-) TimerEvent: {}
+[8.213652] (-) TimerEvent: {}
+[8.314389] (-) TimerEvent: {}
+[8.415284] (-) TimerEvent: {}
+[8.516212] (-) TimerEvent: {}
+[8.617293] (-) TimerEvent: {}
+[8.718300] (-) TimerEvent: {}
+[8.819901] (-) TimerEvent: {}
+[8.920828] (-) TimerEvent: {}
+[9.021830] (-) TimerEvent: {}
+[9.122510] (-) TimerEvent: {}
+[9.226849] (-) TimerEvent: {}
+[9.327562] (-) TimerEvent: {}
+[9.428599] (-) TimerEvent: {}
+[9.529870] (-) TimerEvent: {}
+[9.633546] (-) TimerEvent: {}
+[9.734540] (-) TimerEvent: {}
+[9.841313] (-) TimerEvent: {}
+[9.943000] (-) TimerEvent: {}
+[10.044282] (-) TimerEvent: {}
+[10.145656] (-) TimerEvent: {}
+[10.246937] (-) TimerEvent: {}
+[10.351040] (-) TimerEvent: {}
+[10.452288] (-) TimerEvent: {}
+[10.553642] (-) TimerEvent: {}
+[10.654880] (-) TimerEvent: {}
+[10.755818] (-) TimerEvent: {}
+[10.856922] (-) TimerEvent: {}
+[10.957636] (-) TimerEvent: {}
+[11.059224] (-) TimerEvent: {}
+[11.160612] (-) TimerEvent: {}
+[11.263274] (-) TimerEvent: {}
+[11.364599] (-) TimerEvent: {}
+[11.465801] (-) TimerEvent: {}
+[11.567095] (-) TimerEvent: {}
+[11.668327] (-) TimerEvent: {}
+[11.769396] (-) TimerEvent: {}
+[11.870519] (-) TimerEvent: {}
+[11.971721] (-) TimerEvent: {}
+[12.072921] (-) TimerEvent: {}
+[12.173815] (-) TimerEvent: {}
+[12.274759] (-) TimerEvent: {}
+[12.375553] (-) TimerEvent: {}
+[12.476532] (-) TimerEvent: {}
+[12.577632] (-) TimerEvent: {}
+[12.682847] (-) TimerEvent: {}
+[12.783723] (-) TimerEvent: {}
+[12.884401] (-) TimerEvent: {}
+[12.985530] (-) TimerEvent: {}
+[13.086910] (-) TimerEvent: {}
+[13.188320] (-) TimerEvent: {}
+[13.289210] (-) TimerEvent: {}
+[13.390524] (-) TimerEvent: {}
+[13.491780] (-) TimerEvent: {}
+[13.592665] (-) TimerEvent: {}
+[13.694042] (-) TimerEvent: {}
+[13.795250] (-) TimerEvent: {}
+[13.895782] (-) TimerEvent: {}
+[13.996699] (-) TimerEvent: {}
+[14.097440] (-) TimerEvent: {}
+[14.198475] (-) TimerEvent: {}
+[14.299991] (-) TimerEvent: {}
+[14.401274] (-) TimerEvent: {}
+[14.502113] (-) TimerEvent: {}
+[14.603483] (-) TimerEvent: {}
+[14.704340] (-) TimerEvent: {}
+[14.805678] (-) TimerEvent: {}
+[14.907016] (-) TimerEvent: {}
+[15.008146] (-) TimerEvent: {}
+[15.108792] (-) TimerEvent: {}
+[15.215013] (-) TimerEvent: {}
+[15.316216] (-) TimerEvent: {}
+[15.417412] (-) TimerEvent: {}
+[15.518554] (-) TimerEvent: {}
+[15.620037] (-) TimerEvent: {}
+[15.721358] (-) TimerEvent: {}
+[15.824484] (-) TimerEvent: {}
+[15.925908] (-) TimerEvent: {}
+[16.027534] (-) TimerEvent: {}
+[16.128383] (-) TimerEvent: {}
+[16.228809] (-) TimerEvent: {}
+[16.329378] (-) TimerEvent: {}
+[16.430890] (-) TimerEvent: {}
+[16.531965] (-) TimerEvent: {}
+[16.632784] (-) TimerEvent: {}
+[16.677575] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo_stu\x1b[0m\n'}
+[16.733576] (-) TimerEvent: {}
+[16.834894] (-) TimerEvent: {}
+[16.936238] (-) TimerEvent: {}
+[17.037433] (-) TimerEvent: {}
+[17.138952] (-) TimerEvent: {}
+[17.239920] (-) TimerEvent: {}
+[17.341070] (-) TimerEvent: {}
+[17.442073] (-) TimerEvent: {}
+[17.543536] (-) TimerEvent: {}
+[17.645144] (-) TimerEvent: {}
+[17.746345] (-) TimerEvent: {}
+[17.850813] (-) TimerEvent: {}
+[17.951982] (-) TimerEvent: {}
+[18.053223] (-) TimerEvent: {}
+[18.154244] (-) TimerEvent: {}
+[18.216828] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo_stu\n'}
+[18.222980] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.231172] (cpp01_topic) CommandEnded: {'returncode': 2}
+[18.254984] (-) TimerEvent: {}
+[18.356334] (-) TimerEvent: {}
+[18.463071] (-) TimerEvent: {}
+[18.564257] (-) TimerEvent: {}
+[18.622471] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[18.634985] (-) EventReactorShutdown: {}

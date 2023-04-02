@@ -1,0 +1,28 @@
+[0.080s] Invoking command in '/home/levi/tut_interface/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6
+[0.530s] [35m[1mConsolidate compiler generated dependencies of target demo_stu_listener[0m
+[0.658s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o[0m
+[0.661s] [ 75%] Built target demo_stu
+[1.054s] [100%] [32m[1mLinking CXX executable demo_stu_listener[0m
+[1.691s] [100%] Built target demo_stu_listener
+[1.806s] Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6
+[2.218s] Invoking command in '/home/levi/tut_interface/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp01_topic
+[2.296s] -- Install configuration: ""
+[2.299s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/lib/cpp01_topic/demo_stu
+[2.309s] -- Installing: /home/levi/tut_interface/install/cpp01_topic/lib/cpp01_topic/demo_stu_listener
+[2.322s] -- Set runtime path of "/home/levi/tut_interface/install/cpp01_topic/lib/cpp01_topic/demo_stu_listener" to ""
+[2.322s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[2.323s] -- Installing: /home/levi/tut_interface/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[2.330s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[2.335s] -- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[2.336s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[2.337s] -- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[2.339s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[2.340s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[2.341s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[2.341s] -- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[2.342s] -- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.dsv
+[2.343s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[2.344s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[2.345s] -- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[2.348s] -- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.xml
+[2.356s] Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp01_topic

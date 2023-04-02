@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_client[0m
+[ 50%] Built target demo01_server
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_client.dir/src/demo01_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo01_client[0m
+[100%] Built target demo01_client
+-- Install configuration: ""
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_server
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client
+-- Set runtime path of "/home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client" to ""
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/package_run_dependencies/cpp02_srv
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/parent_prefix_path/cpp02_srv
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.sh
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.sh
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.dsv
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.bash
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.sh
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.zsh
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.dsv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.dsv
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/packages/cpp02_srv
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig.cmake
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig-version.cmake
+-- Up-to-date: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.xml

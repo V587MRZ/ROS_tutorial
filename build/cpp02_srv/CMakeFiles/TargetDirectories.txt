@@ -1,0 +1,11 @@
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/uninstall.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/cpp02_srv_uninstall.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/demo01_server.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/demo01_client.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/test.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/edit_cache.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/rebuild_cache.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/list_install_components.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/install.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/install/local.dir
+/home/levi/tut_interface/build/cpp02_srv/CMakeFiles/install/strip.dir

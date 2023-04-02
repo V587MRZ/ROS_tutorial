@@ -1,0 +1,56 @@
+[2.613s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/levi/tut_interface']
+[2.614s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/levi/tut_interface'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f40d3cb51b0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f40d43aace0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f40d43aace0>>)
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.818s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/levi/tut_interface'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'ignore'
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'ignore_ament_install'
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extensions ['colcon_pkg']
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'colcon_pkg'
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extensions ['colcon_meta']
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'colcon_meta'
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extensions ['ros']
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'ros'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extensions ['cmake', 'python']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'cmake'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'python'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extensions ['python_setup_py']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface) by extension 'python_setup_py'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/build) by extensions ['ignore', 'ignore_ament_install']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/build) by extension 'ignore'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/build) ignored
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/install) by extensions ['ignore', 'ignore_ament_install']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/install) by extension 'ignore'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/install) ignored
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/log) by extensions ['ignore', 'ignore_ament_install']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/log) by extension 'ignore'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/log) ignored
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extensions ['ignore', 'ignore_ament_install']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'ignore'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'ignore_ament_install'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extensions ['colcon_pkg']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'colcon_pkg'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extensions ['colcon_meta']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'colcon_meta'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extensions ['ros']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'ros'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extensions ['cmake', 'python']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'cmake'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'python'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extensions ['python_setup_py']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src) by extension 'python_setup_py'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extension 'ignore'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extension 'ignore_ament_install'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extensions ['colcon_pkg']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extension 'colcon_pkg'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extensions ['colcon_meta']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extension 'colcon_meta'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extensions ['ros']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/levi/tut_interface/src/base_interfaces_demo) by extension 'ros'
+[2.950s] DEBUG:colcon.colcon_core.package_identification:Package '/home/levi/tut_interface/src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[2.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

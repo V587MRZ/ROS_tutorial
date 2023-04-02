@@ -1,0 +1,51 @@
+[0.075s] Invoking command in '/home/levi/tut_interface/build/cpp01_topic': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/levi/tut_interface/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/cpp01_topic
+[0.446s] -- The C compiler identification is GNU 11.3.0
+[0.867s] -- The CXX compiler identification is GNU 11.3.0
+[0.911s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.505s] -- Detecting C compile features
+[1.506s] -- Detecting C compile features - done
+[1.517s] -- Detecting CXX compiler ABI info
+[2.180s] -- Detecting CXX compiler ABI info - done
+[2.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.200s] -- Detecting CXX compile features
+[2.207s] -- Detecting CXX compile features - done
+[2.220s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.038s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.495s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[3.843s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.880s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.931s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.006s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.504s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.523s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.281s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.435s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.757s] -- Looking for pthread.h
+[6.337s] -- Looking for pthread.h - found
+[6.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.955s] -- Found Threads: TRUE  
+[7.736s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[7.736s]   By not providing "Findstd_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[7.737s]   asked CMake to find a package configuration file provided by "std_msgs",
+[7.737s]   but CMake did not find one.
+[7.737s] 
+[7.738s]   Could not find a package configuration file provided by "std_msgs" with any
+[7.738s]   of the following names:
+[7.738s] 
+[7.739s]     std_msgsConfig.cmake
+[7.739s]     std_msgs-config.cmake
+[7.740s] 
+[7.740s]   Add the installation prefix of "std_msgs" to CMAKE_PREFIX_PATH or set
+[7.744s]   "std_msgs_DIR" to a directory containing one of the above files.  If
+[7.746s]   "std_msgs" provides a separate development package or SDK, be sure it has
+[7.746s]   been installed.
+[7.747s] 
+[7.748s] [0m
+[7.748s] -- Configuring incomplete, errors occurred!
+[7.749s] See also "/home/levi/tut_interface/build/cpp01_topic/CMakeFiles/CMakeOutput.log".
+[7.802s] Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '1': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/levi/tut_interface/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/cpp01_topic

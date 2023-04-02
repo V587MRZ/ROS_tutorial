@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_stu_listener[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o[0m
+[ 75%] Built target demo_stu
+[100%] [32m[1mLinking CXX executable demo_stu_listener[0m
+[100%] Built target demo_stu_listener
+-- Install configuration: ""
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/lib/cpp01_topic/demo_stu
+-- Set runtime path of "/home/levi/tut_interface/install/cpp01_topic/lib/cpp01_topic/demo_stu" to ""
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/lib/cpp01_topic/demo_stu_listener
+-- Set runtime path of "/home/levi/tut_interface/install/cpp01_topic/lib/cpp01_topic/demo_stu_listener" to ""
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.dsv
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+-- Up-to-date: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+-- Installing: /home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.xml

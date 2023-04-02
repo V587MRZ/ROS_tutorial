@@ -1,0 +1,30 @@
+[0.075s] Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.535s] [ 33%] Built target demo02_param_client
+[0.561s] [ 66%] Built target demo00_param
+[0.594s] [ 83%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[12.429s] [100%] [32m[1mLinking CXX executable demo01_param_server[0m
+[13.225s] [100%] Built target demo01_param_server
+[13.316s] Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[13.724s] Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param
+[13.780s] -- Install configuration: ""
+[13.783s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/lib/cpp04_param/demo00_param
+[13.789s] -- Installing: /home/levi/tut_interface/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[13.796s] -- Set runtime path of "/home/levi/tut_interface/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[13.799s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[13.802s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[13.804s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[13.805s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[13.807s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[13.808s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/path.sh
+[13.809s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[13.809s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.bash
+[13.816s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.sh
+[13.817s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[13.817s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[13.818s] -- Installing: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.dsv
+[13.818s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[13.819s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[13.821s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[13.824s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.xml
+[13.825s] Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param

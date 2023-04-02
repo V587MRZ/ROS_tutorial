@@ -1,0 +1,50 @@
+[0.159s] Invoking command in '/home/levi/tut_interface/build/cpp03_action': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[0.703s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[0.910s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[13.647s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.654s]                  from [01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:16[m[K:
+[13.655s] [01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MinimalActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[13.656s] [01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:45:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[13.656s]    45 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Received goal request, the number is %d"[m[K, [32m[Kgoal->num[m[K);
+[13.657s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+[13.658s]       |                                                                                      [32m[K|[m[K
+[13.658s]       |                                                                                      [32m[Klong int[m[K
+[13.659s] [01m[K/home/levi/tut_interface/src/cpp03_action/src/demo01_action_server.cpp:45:76:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[13.659s]    45 |     RCLCPP_INFO(this->get_logger(), "Received goal request, the number is [01;36m[K%d[m[K", goal->num);
+[13.660s]       |                                                                           [01;36m[K~^[m[K
+[13.661s]       |                                                                            [01;36m[K|[m[K
+[13.662s]       |                                                                            [01;36m[Kint[m[K
+[13.662s]       |                                                                           [32m[K%ld[m[K
+[18.107s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[19.550s] [100%] Built target demo01_action_server
+[19.640s] Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[20.060s] Invoking command in '/home/levi/tut_interface/build/cpp03_action': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action
+[20.123s] -- Install configuration: ""
+[20.134s] -- Installing: /home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[20.166s] -- Set runtime path of "/home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[20.171s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[20.172s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[20.173s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[20.174s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[20.178s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/path.sh
+[20.178s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[20.179s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.bash
+[20.180s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.sh
+[20.180s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[20.181s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[20.181s] -- Installing: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.dsv
+[20.182s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[20.187s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[20.190s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[20.195s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.xml
+[20.196s] Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_helloworld/install/helloworld_vscode_pkg:/home/levi/tut_helloworld/install/cpp_helloworld:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action

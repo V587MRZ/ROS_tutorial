@@ -1,0 +1,42 @@
+[0.116s] Invoking command in '/home/levi/tut_interface/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6
+[0.367s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.416s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.711s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.732s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.799s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.351s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.367s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.053s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.835s] -- Found base_interfaces_demo: 0.0.0 (/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[3.928s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.324s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.324s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/levi/tut_interface/src/cpp01_topic/include>
+[4.325s] -- Configured cppcheck exclude dirs and/or files: 
+[4.333s] -- Added test 'lint_cmake' to check CMake code style
+[4.350s] -- Added test 'uncrustify' to check C / C++ code style
+[4.353s] -- Configured uncrustify additional arguments: 
+[4.355s] -- Added test 'xmllint' to check XML markup files
+[4.367s] -- Configuring done
+[4.575s] -- Generating done
+[4.586s] -- Build files have been written to: /home/levi/tut_interface/build/cpp01_topic
+[4.791s] [35m[1mConsolidate compiler generated dependencies of target demo_stu[0m
+[4.792s] [35m[1mConsolidate compiler generated dependencies of target demo_stu_listener[0m
+[4.868s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o[0m
+[4.896s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o[0m
+[7.639s] [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/student.hpp: No such file or directory
+[7.639s]     2 | #include [01;31m[K"base_interfaces_demo/student.hpp"[m[K
+[7.640s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.640s] compilation terminated.
+[7.655s] gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:76: CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o] Error 1
+[7.655s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2
+[7.656s] gmake[1]: *** Waiting for unfinished jobs....
+[7.717s] [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demp/msg/student.hpp: No such file or directory
+[7.718s]     2 | #include [01;31m[K"base_interfaces_demp/msg/student.hpp"[m[K
+[7.718s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.719s] compilation terminated.
+[7.731s] gmake[2]: *** [CMakeFiles/demo_stu.dir/build.make:76: CMakeFiles/demo_stu.dir/src/demo_stu.cpp.o] Error 1
+[7.732s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo_stu.dir/all] Error 2
+[7.733s] gmake: *** [Makefile:146: all] Error 2
+[7.749s] Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6

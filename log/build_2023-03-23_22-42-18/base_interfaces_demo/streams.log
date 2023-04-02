@@ -1,0 +1,42 @@
+[0.086s] Invoking command in '/home/levi/tut_interface/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/levi/tut_interface/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/base_interfaces_demo
+[1.042s] -- The C compiler identification is GNU 11.3.0
+[1.770s] -- The CXX compiler identification is GNU 11.3.0
+[1.873s] -- Detecting C compiler ABI info
+[2.648s] -- Detecting C compiler ABI info - done
+[2.669s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.671s] -- Detecting C compile features
+[2.674s] -- Detecting C compile features - done
+[2.710s] -- Detecting CXX compiler ABI info
+[3.638s] -- Detecting CXX compiler ABI info - done
+[3.657s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.659s] -- Detecting CXX compile features
+[3.661s] -- Detecting CXX compile features - done
+[3.710s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.942s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.778s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.327s] -- Added test 'lint_cmake' to check CMake code style
+[6.344s] -- Added test 'xmllint' to check XML markup files
+[6.374s] -- Configuring done
+[6.419s] -- Generating done
+[6.426s] -- Build files have been written to: /home/levi/tut_interface/build/base_interfaces_demo
+[6.472s] Invoked command in '/home/levi/tut_interface/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/levi/tut_interface/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/base_interfaces_demo
+[6.491s] Invoking command in '/home/levi/tut_interface/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/base_interfaces_demo -- -j6 -l6
+[6.884s] Invoked command in '/home/levi/tut_interface/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/base_interfaces_demo -- -j6 -l6
+[7.367s] Invoking command in '/home/levi/tut_interface/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/base_interfaces_demo
+[7.437s] -- Install configuration: ""
+[7.440s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[7.446s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[7.450s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[7.452s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[7.454s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[7.457s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[7.459s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[7.473s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[7.477s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[7.478s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[7.478s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[7.479s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[7.481s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[7.483s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[7.483s] -- Installing: /home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[7.495s] Invoked command in '/home/levi/tut_interface/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/base_interfaces_demo

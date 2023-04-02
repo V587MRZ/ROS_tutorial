@@ -1,0 +1,34 @@
+[0.123s] Invoking command in '/home/levi/tut_interface/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6
+[0.301s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.207s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.373s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.397s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.424s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.911s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.921s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.451s] -- Found base_interfaces_demo: 0.0.0 (/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[3.512s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.853s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.854s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/levi/tut_interface/src/cpp01_topic/include>
+[3.855s] -- Configured cppcheck exclude dirs and/or files: 
+[3.855s] -- Added test 'lint_cmake' to check CMake code style
+[3.857s] -- Added test 'uncrustify' to check C / C++ code style
+[3.862s] -- Configured uncrustify additional arguments: 
+[3.863s] -- Added test 'xmllint' to check XML markup files
+[3.864s] -- Configuring done
+[3.986s] -- Generating done
+[3.995s] -- Build files have been written to: /home/levi/tut_interface/build/cpp01_topic
+[4.238s] [35m[1mConsolidate compiler generated dependencies of target demo_stu[0m
+[4.350s] [ 50%] Built target demo_stu
+[4.397s] [ 75%] [32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o[0m
+[4.601s] [100%] [32m[1mLinking CXX executable demo_stu_listener[0m
+[5.126s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[5.127s] (.text+0x1b): undefined reference to `main'
+[5.144s] collect2: error: ld returned 1 exit status
+[5.151s] gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:167: demo_stu_listener] Error 1
+[5.154s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2
+[5.155s] gmake: *** [Makefile:146: all] Error 2
+[5.170s] Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6

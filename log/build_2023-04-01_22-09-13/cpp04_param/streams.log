@@ -1,0 +1,79 @@
+[0.093s] Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[0.492s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.503s] [35m[1mConsolidate compiler generated dependencies of target demo02_param_client[0m
+[0.610s] [ 33%] Built target demo00_param
+[0.624s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[0.653s] [ 83%] Built target demo02_param_client
+[11.055s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.057s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.065s]                  from [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:1[m[K:
+[11.072s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:[m[K In member function ‘[01m[Kvoid MinimalParamServer::get_param()[m[K’:
+[11.072s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[11.073s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,"car_name %s",p.as_string().c_str());
+[11.073s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[11.074s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.076s]                  from [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:1[m[K:
+[11.076s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.076s]   142 |   [01;36m[Kget_logger[m[K() const;
+[11.077s]       |   [01;36m[K^~~~~~~~~~[m[K
+[11.077s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.078s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.078s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.084s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.089s]                  from [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:1[m[K:
+[11.089s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.090s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,"car_name %s",p.as_string().c_str());
+[11.090s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[11.091s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[11.092s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,"car_name %s",p.as_string().c_str());
+[11.092s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[11.093s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.093s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,"car_name %s",p.as_string().c_str());
+[11.094s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[11.095s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[11.098s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,"car_name %s",p.as_string().c_str());
+[11.101s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[11.102s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.102s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,"car_name %s",p.as_string().c_str());
+[11.103s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[11.104s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.109s]                  from [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:1[m[K:
+[11.109s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:27:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[11.109s]    23 |         RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger,"car_name %s",p.as_string().c_str());
+[11.109s]       |                           [01;31m[K^[m[K
+[11.110s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:27:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[11.110s]    23 |         RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger,"car_name %s",p.as_string().c_str());
+[11.110s]       |                           [01;31m[K^[m[K
+[11.111s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo01_param_server.cpp:23:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+[11.111s]    23 |         RCLCPP_INFO(this->get_logger,"car_name %s",[01;31m[Kp[m[K.as_string().c_str());
+[11.111s]       |                                                    [01;31m[K^[m[K
+[12.331s] gmake[2]: *** [CMakeFiles/demo01_param_server.dir/build.make:76: CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o] Error 1
+[12.333s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_param_server.dir/all] Error 2
+[12.333s] gmake: *** [Makefile:146: all] Error 2
+[12.354s] Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6

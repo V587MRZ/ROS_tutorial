@@ -1,0 +1,47 @@
+[0.097s] Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target demo00_param[0m
+[0.590s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[11.063s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.069s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.070s]                  from [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo00_param.cpp:1[m[K:
+[11.070s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KParamIntro::ParamIntro()[m[K’:
+[11.070s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo00_param.cpp:12:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[11.071s]    12 |     RCLCPP_INFO(this->get_logger(),[01;35m[K"%s = %s"[m[K,p1.get_name(), p2.as_string().c_str());
+[11.072s]       |                                    [01;35m[K^~~~~~~~~[m[K
+[11.072s] [01m[K/home/levi/tut_interface/src/cpp04_param/src/demo00_param.cpp:12:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[11.074s]    12 |     RCLCPP_INFO(this->get_logger(),"[01;36m[K%s[m[K = %s",p1.get_name(), p2.as_string().c_str());
+[11.074s]       |                                     [01;36m[K~^[m[K
+[11.074s]       |                                      [01;36m[K|[m[K
+[11.075s]       |                                      [01;36m[Kchar*[m[K
+[12.666s] [100%] [32m[1mLinking CXX executable demo00_param[0m
+[13.452s] [100%] Built target demo00_param
+[13.537s] Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[13.912s] Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param
+[13.971s] -- Install configuration: ""
+[13.977s] -- Installing: /home/levi/tut_interface/install/cpp04_param/lib/cpp04_param/demo00_param
+[13.987s] -- Set runtime path of "/home/levi/tut_interface/install/cpp04_param/lib/cpp04_param/demo00_param" to ""
+[13.988s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[13.988s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[13.989s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[13.989s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[13.989s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/path.sh
+[14.002s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[14.002s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.bash
+[14.003s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.sh
+[14.003s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[14.004s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[14.005s] -- Installing: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.dsv
+[14.006s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[14.011s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[14.011s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[14.011s] -- Up-to-date: /home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.xml
+[14.012s] Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param

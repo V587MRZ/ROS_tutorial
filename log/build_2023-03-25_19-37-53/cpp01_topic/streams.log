@@ -1,0 +1,21 @@
+[0.090s] Invoking command in '/home/levi/tut_interface/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6
+[0.388s] [35m[1mConsolidate compiler generated dependencies of target demo_stu_listener[0m
+[0.506s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o[0m
+[0.520s] [ 75%] Built target demo_stu
+[10.492s] [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:[m[K In constructor ‘[01m[KMinimalSubsriber::MinimalSubsriber()[m[K’:
+[10.493s] [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:10:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubsriber[m[K’ has no member named ‘[01m[Kcreate[m[K’
+[10.493s]    10 |     subscription_ = this->[01;31m[Kcreate[m[K->subscription<Student>(
+[10.494s]       |                           [01;31m[K^~~~~~[m[K
+[10.494s] [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:10:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[10.495s]    10 |     subscription_ = this->create->subscription<Student[01;31m[K>[m[K(
+[10.495s]       |                                                       [01;31m[K^[m[K
+[10.496s] [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:11:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[10.496s]    11 |         [01;35m[K"topic_stu"[m[K, 10, std::bind(&MinimalSubsriber::topic_callback, this, _1));
+[10.497s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[10.513s] [01m[K/home/levi/tut_interface/src/cpp01_topic/src/demo_stu_listener.cpp:11:79:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[10.514s]    11 |         "topic_stu", 10, std::bind(&MinimalSubsriber::topic_callback, this, _1[01;35m[K)[m[K);
+[10.514s]       |                                                                               [01;35m[K^[m[K
+[11.814s] gmake[2]: *** [CMakeFiles/demo_stu_listener.dir/build.make:76: CMakeFiles/demo_stu_listener.dir/src/demo_stu_listener.cpp.o] Error 1
+[11.814s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo_stu_listener.dir/all] Error 2
+[11.815s] gmake: *** [Makefile:146: all] Error 2
+[11.827s] Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6

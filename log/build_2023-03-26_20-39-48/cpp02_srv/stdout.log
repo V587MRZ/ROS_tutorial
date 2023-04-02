@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_client[0m
+[35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_client.dir/src/demo01_client.cpp.o[0m
+[ 75%] Built target demo01_server
+[100%] [32m[1mLinking CXX executable demo01_client[0m
+[100%] Built target demo01_client
+-- Install configuration: ""
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_server
+-- Set runtime path of "/home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_server" to ""
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client
+-- Set runtime path of "/home/levi/tut_interface/install/cpp02_srv/lib/cpp02_srv/demo01_client" to ""
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/package_run_dependencies/cpp02_srv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/parent_prefix_path/cpp02_srv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.sh
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/ament_prefix_path.dsv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.sh
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/environment/path.dsv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.bash
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.sh
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.zsh
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/local_setup.dsv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.dsv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/ament_index/resource_index/packages/cpp02_srv
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig.cmake
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/cmake/cpp02_srvConfig-version.cmake
+-- Installing: /home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.xml
