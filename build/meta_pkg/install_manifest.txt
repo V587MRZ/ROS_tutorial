@@ -1,0 +1,15 @@
+/home/levi/tut_interface/install/meta_pkg/share/ament_index/resource_index/package_run_dependencies/meta_pkg
+/home/levi/tut_interface/install/meta_pkg/share/ament_index/resource_index/parent_prefix_path/meta_pkg
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/ament_prefix_path.sh
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/ament_prefix_path.dsv
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/path.sh
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/path.dsv
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.bash
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.sh
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.zsh
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.dsv
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.dsv
+/home/levi/tut_interface/install/meta_pkg/share/ament_index/resource_index/packages/meta_pkg
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/cmake/meta_pkgConfig.cmake
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/cmake/meta_pkgConfig-version.cmake
+/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.xml

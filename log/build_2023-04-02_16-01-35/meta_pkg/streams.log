@@ -1,0 +1,42 @@
+[0.142s] Invoking command in '/home/levi/tut_interface/build/meta_pkg': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/levi/tut_interface/src/meta_pkg -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/meta_pkg
+[0.752s] -- The C compiler identification is GNU 11.3.0
+[1.260s] -- The CXX compiler identification is GNU 11.3.0
+[1.329s] -- Detecting C compiler ABI info
+[1.913s] -- Detecting C compiler ABI info - done
+[1.950s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.951s] -- Detecting C compile features
+[1.953s] -- Detecting C compile features - done
+[1.974s] -- Detecting CXX compiler ABI info
+[2.674s] -- Detecting CXX compiler ABI info - done
+[2.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.700s] -- Detecting CXX compile features
+[2.701s] -- Detecting CXX compile features - done
+[2.745s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.704s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.275s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.761s] -- Added test 'lint_cmake' to check CMake code style
+[4.780s] -- Added test 'xmllint' to check XML markup files
+[4.795s] -- Configuring done
+[4.821s] -- Generating done
+[4.824s] -- Build files have been written to: /home/levi/tut_interface/build/meta_pkg
+[4.857s] Invoked command in '/home/levi/tut_interface/build/meta_pkg' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/levi/tut_interface/src/meta_pkg -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/meta_pkg
+[4.861s] Invoking command in '/home/levi/tut_interface/build/meta_pkg': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/meta_pkg -- -j6 -l6
+[5.130s] Invoked command in '/home/levi/tut_interface/build/meta_pkg' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/meta_pkg -- -j6 -l6
+[5.419s] Invoking command in '/home/levi/tut_interface/build/meta_pkg': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/meta_pkg
+[5.475s] -- Install configuration: ""
+[5.479s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/ament_index/resource_index/package_run_dependencies/meta_pkg
+[5.483s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/ament_index/resource_index/parent_prefix_path/meta_pkg
+[5.485s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/ament_prefix_path.sh
+[5.487s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/ament_prefix_path.dsv
+[5.489s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/path.sh
+[5.490s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/environment/path.dsv
+[5.492s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.bash
+[5.495s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.sh
+[5.500s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.zsh
+[5.502s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/local_setup.dsv
+[5.504s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.dsv
+[5.508s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/ament_index/resource_index/packages/meta_pkg
+[5.512s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/cmake/meta_pkgConfig.cmake
+[5.514s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/cmake/meta_pkgConfig-version.cmake
+[5.516s] -- Installing: /home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.xml
+[5.525s] Invoked command in '/home/levi/tut_interface/build/meta_pkg' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/meta_pkg

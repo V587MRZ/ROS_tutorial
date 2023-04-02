@@ -1,0 +1,9 @@
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/uninstall.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/meta_pkg_uninstall.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/test.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/edit_cache.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/rebuild_cache.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/list_install_components.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/install.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/install/local.dir
+/home/levi/tut_interface/build/meta_pkg/CMakeFiles/install/strip.dir
