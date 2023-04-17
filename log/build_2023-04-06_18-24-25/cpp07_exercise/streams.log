@@ -1,0 +1,100 @@
+[0.091s] Invoking command in '/home/levi/tut_interface/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6
+[0.367s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.022s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.175s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.188s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.233s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.887s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.897s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.356s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.892s] -- Found base_interfaces_demo: 0.0.0 (/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[4.107s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.288s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.421s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.739s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.740s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/levi/tut_interface/src/cpp07_exercise/include>
+[4.740s] -- Configured cppcheck exclude dirs and/or files: 
+[4.742s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.746s] -- Added test 'lint_cmake' to check CMake code style
+[4.750s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.760s] -- Added test 'uncrustify' to check C / C++ code style
+[4.760s] -- Configured uncrustify additional arguments: 
+[4.763s] -- Added test 'xmllint' to check XML markup files
+[4.769s] -- Configuring done
+[4.980s] -- Generating done
+[4.996s] -- Build files have been written to: /home/levi/tut_interface/build/cpp07_exercise
+[5.249s] [35m[1mConsolidate compiler generated dependencies of target basic_node[0m
+[5.249s] [35m[1mConsolidate compiler generated dependencies of target exe02_server[0m
+[5.297s] [35m[1mConsolidate compiler generated dependencies of target exe03_client[0m
+[5.307s] [35m[1mConsolidate compiler generated dependencies of target exe01_pub_sub[0m
+[5.411s] [ 12%] [32m[1mLinking CXX executable exe02_server[0m
+[5.438s] [ 25%] [32m[1mLinking CXX executable basic_node[0m
+[5.490s] [ 37%] [32mBuilding CXX object CMakeFiles/exe03_client.dir/src/exe03_client.cpp.o[0m
+[5.587s] [ 62%] Built target exe01_pub_sub
+[6.271s] [ 75%] Built target exe02_server
+[6.388s] [ 87%] Built target basic_node
+[18.116s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:[m[K In member function ‘[01m[Kbool Exe03Client::connect_server()[m[K’:
+[18.117s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_client[m[K’ was not declared in this scope
+[18.117s]    13 |         while (![01;31m[Kdistance_client[m[K->wait_for_service(1s))
+[18.118s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[18.119s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:13:51:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[18.119s]    13 |         while (!distance_client->wait_for_service([01;31m[K1s[m[K))
+[18.120s]       |                                                   [01;31m[K^~[m[K
+[18.141s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.144s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.144s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.146s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.147s]                  from [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:1[m[K:
+[18.147s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[18.150s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:58:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[18.151s]    58 |         RCLCPP_INFO([01;31m[Kclient[m[K->get_logger(), "两只乌龟相距%.2f米。", future.get()->distance);
+[18.151s]       |                     [01;31m[K^~~~~~[m[K
+[18.152s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:58:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.152s]    58 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "两只乌龟相距%.2f米。", future.get()->distance);
+[18.152s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.152s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[18.153s]    58 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "两只乌龟相距%.2f米。", future.get()->distance);
+[18.153s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.153s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:58:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.154s]    58 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "两只乌龟相距%.2f米。", future.get()->distance);
+[18.154s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.154s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[18.155s]    58 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "两只乌龟相距%.2f米。", future.get()->distance);
+[18.155s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.155s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:58:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.156s]    58 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "两只乌龟相距%.2f米。", future.get()->distance);
+[18.156s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.156s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:60:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[18.157s]    60 |         RCLCPP_INFO([01;31m[Kclient[m[K->get_logger(), "获取距离服务失败!")
+[18.157s]       |                     [01;31m[K^~~~~~[m[K
+[18.157s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:60:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.158s]    60 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "获取距离服务失败!")
+[18.158s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.158s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[18.159s]    60 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "获取距离服务失败!")
+[18.159s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.159s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:60:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.159s]    60 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "获取距离服务失败!")
+[18.160s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.160s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[18.161s]    60 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "获取距离服务失败!")
+[18.161s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.161s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:60:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.161s]    60 |         [01;31m[KRCLCPP_INFO[m[K(client->get_logger(), "获取距离服务失败!")
+[18.161s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.162s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:61:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[18.166s]    61 |     [01;31m[Krclcpp[m[K::shutdown();
+[18.167s]       |     [01;31m[K^~~~~~[m[K
+[20.417s] gmake[2]: *** [CMakeFiles/exe03_client.dir/build.make:76：CMakeFiles/exe03_client.dir/src/exe03_client.cpp.o] 错误 1
+[20.420s] gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/exe03_client.dir/all] 错误 2
+[20.421s] gmake: *** [Makefile:146：all] 错误 2
+[20.435s] Invoked command in '/home/levi/tut_interface/build/cpp07_exercise' returned '2': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6

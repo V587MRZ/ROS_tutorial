@@ -5,7 +5,7 @@ using std::placeholders::_1;
 class MinimalSubsriber : public rclcpp::Node
 {
 public:
-  MinimalSubsriber() : Node("student_subsriber")
+  MinimalSubsriber() : Node("student_subsriber","ns1")
   {
     subscription_ = this->create_subscription<Student>(
         "topic_stu", 10, std::bind(&MinimalSubsriber::topic_callback, this, _1));
@@ -17,6 +17,7 @@ private:
     RCLCPP_INFO(
         this->get_logger(), "订阅的学生消息name=%s,age=%d,height=%.2f", msg.name.c_str(), msg.age, msg.height);
   }
+  
   rclcpp::Subscription<Student>::SharedPtr subscription_;
 };
 int main(int argc, char **argv)

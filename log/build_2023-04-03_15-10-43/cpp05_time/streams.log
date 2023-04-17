@@ -1,0 +1,6 @@
+[0.073s] Invoking command in '/home/levi/tut_interface/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp05_time -- -j6 -l6
+[0.620s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_time.dir/src/demo_time.cpp.o[0m
+[4.066s] gmake[2]: *** [CMakeFiles/demo_time.dir/build.make:76: CMakeFiles/demo_time.dir/src/demo_time.cpp.o] Interrupt
+[4.066s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo_time.dir/all] Interrupt
+[4.066s] gmake: *** [Makefile:146: all] Interrupt
+[4.074s] Invoked command in '/home/levi/tut_interface/build/cpp05_time' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp05_time -- -j6 -l6

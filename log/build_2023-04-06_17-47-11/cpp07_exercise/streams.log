@@ -1,0 +1,68 @@
+[0.098s] Invoking command in '/home/levi/tut_interface/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6
+[0.280s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.010s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.176s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.188s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.214s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.281s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.620s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.625s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.149s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.610s] -- Found base_interfaces_demo: 0.0.0 (/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[3.825s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.040s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.177s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.485s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.486s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/levi/tut_interface/src/cpp07_exercise/include>
+[4.486s] -- Configured cppcheck exclude dirs and/or files: 
+[4.488s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.491s] -- Added test 'lint_cmake' to check CMake code style
+[4.493s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.507s] -- Added test 'uncrustify' to check C / C++ code style
+[4.508s] -- Configured uncrustify additional arguments: 
+[4.510s] -- Added test 'xmllint' to check XML markup files
+[4.525s] -- Configuring done
+[4.728s] -- Generating done
+[4.738s] -- Build files have been written to: /home/levi/tut_interface/build/cpp07_exercise
+[4.927s] [35m[1mConsolidate compiler generated dependencies of target exe01_pub_sub[0m
+[4.941s] [35m[1mConsolidate compiler generated dependencies of target exe02_server[0m
+[4.971s] [35m[1mConsolidate compiler generated dependencies of target basic_node[0m
+[5.112s] [ 12%] [32mBuilding CXX object CMakeFiles/exe02_server.dir/src/exe02_server.cpp.o[0m
+[5.113s] [ 25%] [32mBuilding CXX object CMakeFiles/exe03_client.dir/src/exe03_client.cpp.o[0m
+[5.191s] [ 50%] Built target basic_node
+[5.194s] [ 75%] Built target exe01_pub_sub
+[5.268s] [ 87%] [32m[1mLinking CXX executable exe02_server[0m
+[5.896s] [ 87%] Built target exe02_server
+[21.047s] [100%] [32m[1mLinking CXX executable exe03_client[0m
+[21.880s] [100%] Built target exe03_client
+[21.963s] Invoked command in '/home/levi/tut_interface/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6
+[22.493s] Invoking command in '/home/levi/tut_interface/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp07_exercise
+[22.565s] -- Install configuration: ""
+[22.568s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch
+[22.569s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch/exe03_client_launch.py
+[22.569s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch/exe02_server_launch.py
+[22.570s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch/exe01_pub_sub_launch.py
+[22.574s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/basic_node
+[22.587s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe01_pub_sub
+[22.598s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe02_server
+[22.609s] -- Set runtime path of "/home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe02_server" to ""
+[22.610s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe03_client
+[22.624s] -- Set runtime path of "/home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe03_client" to ""
+[22.625s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[22.626s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[22.628s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[22.628s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[22.629s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[22.629s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[22.631s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[22.631s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[22.632s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[22.633s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[22.635s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[22.637s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[22.638s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[22.639s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[22.640s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[22.657s] Invoked command in '/home/levi/tut_interface/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp07_exercise

@@ -1,0 +1,4 @@
+Invoking command in '/home/levi/tut_interface/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp05_time -- -j6 -l6
+Invoked command in '/home/levi/tut_interface/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp05_time -- -j6 -l6
+Invoking command in '/home/levi/tut_interface/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp05_time
+Invoked command in '/home/levi/tut_interface/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp05_time

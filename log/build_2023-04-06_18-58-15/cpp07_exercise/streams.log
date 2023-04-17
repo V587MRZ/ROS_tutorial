@@ -1,0 +1,36 @@
+[0.105s] Invoking command in '/home/levi/tut_interface/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target exe02_server[0m
+[0.592s] [ 25%] Built target basic_node
+[0.658s] [ 50%] Built target exe03_client
+[0.662s] [ 75%] Built target exe01_pub_sub
+[0.692s] [ 87%] [32mBuilding CXX object CMakeFiles/exe02_server.dir/src/exe02_server.cpp.o[0m
+[31.528s] [100%] [32m[1mLinking CXX executable exe02_server[0m
+[34.657s] [100%] Built target exe02_server
+[34.725s] Invoked command in '/home/levi/tut_interface/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6
+[35.251s] Invoking command in '/home/levi/tut_interface/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp07_exercise
+[35.311s] -- Install configuration: ""
+[35.312s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch
+[35.312s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch/exe03_client_launch.py
+[35.312s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch/exe02_server_launch.py
+[35.313s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise//launch/exe01_pub_sub_launch.py
+[35.313s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/basic_node
+[35.314s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe01_pub_sub
+[35.316s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe02_server
+[35.370s] -- Set runtime path of "/home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe02_server" to ""
+[35.373s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/lib/cpp07_exercise/exe03_client
+[35.376s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[35.378s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[35.378s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[35.379s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[35.379s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[35.379s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[35.380s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[35.381s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[35.382s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[35.382s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[35.383s] -- Installing: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[35.383s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[35.383s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[35.383s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[35.383s] -- Up-to-date: /home/levi/tut_interface/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[35.389s] Invoked command in '/home/levi/tut_interface/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp07_exercise

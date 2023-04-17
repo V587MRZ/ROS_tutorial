@@ -1,0 +1,31 @@
+[0.146s] Invoking command in '/home/levi/tut_interface/build/cpp03_action': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[0.608s] [35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[0.780s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[0.892s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[38.119s] [ 75%] [32m[1mLinking CXX executable demo01_action_server[0m
+[40.906s] [ 75%] Built target demo01_action_server
+[44.638s] [100%] [32m[1mLinking CXX executable demo02_action_client[0m
+[46.529s] [100%] Built target demo02_action_client
+[46.631s] Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[47.432s] Invoking command in '/home/levi/tut_interface/build/cpp03_action': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action
+[47.575s] -- Install configuration: ""
+[47.599s] -- Installing: /home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[47.643s] -- Set runtime path of "/home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[47.661s] -- Installing: /home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[47.714s] -- Set runtime path of "/home/levi/tut_interface/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""
+[47.715s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[47.723s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[47.724s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[47.724s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[47.725s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/path.sh
+[47.726s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[47.726s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.bash
+[47.728s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.sh
+[47.734s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[47.736s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[47.746s] -- Installing: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.dsv
+[47.748s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[47.749s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[47.750s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[47.750s] -- Up-to-date: /home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.xml
+[47.766s] Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action

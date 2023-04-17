@@ -16,7 +16,10 @@ rosidl_generate_interfaces(
   "msg/Student.msg"
   "srv/AddInts.srv"
   "action/Progress.action"
+  "srv/Distance.srv"
+  "action/Nav.action"
 )
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

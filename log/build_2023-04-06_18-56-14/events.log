@@ -1,0 +1,482 @@
+[0.000000] (-) TimerEvent: {}
+[0.001065] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.001318] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.001728] (-) JobUnselected: {'identifier': 'cpp02_srv'}
+[0.002109] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.002798] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.004824] (-) JobUnselected: {'identifier': 'cpp05_time'}
+[0.005271] (-) JobUnselected: {'identifier': 'meta_pkg'}
+[0.005826] (-) JobUnselected: {'identifier': 'topic_test'}
+[0.006110] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/levi/tut_interface/install/base_interfaces_demo')])}
+[0.006437] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.088268] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.091285] (-) TimerEvent: {}
+[0.103157] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.103554] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/levi/tut_interface/build/cpp07_exercise', '--', '-j6', '-l6'], 'cwd': '/home/levi/tut_interface/build/cpp07_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/levi/tut_interface/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '4120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'levi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/levi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1271,unix/levi-virtual-machine:/tmp/.ICE-unix/1271'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f347f83_4e66_4ddf_8e31_1ea4f1e2914d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5YJX21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/levi/tut_interface/build/cpp07_exercise'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.191905] (-) TimerEvent: {}
+[0.293108] (-) TimerEvent: {}
+[0.394655] (-) TimerEvent: {}
+[0.496078] (-) TimerEvent: {}
+[0.577719] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exe03_client\x1b[0m\n'}
+[0.592312] (cpp07_exercise) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/exe02_server.dir/src/exe02_server.cpp.o\x1b[0m\n'}
+[0.596740] (-) TimerEvent: {}
+[0.697105] (cpp07_exercise) StdoutLine: {'line': b'[ 37%] Built target exe01_pub_sub\n'}
+[0.697994] (-) TimerEvent: {}
+[0.725067] (cpp07_exercise) StdoutLine: {'line': b'[ 62%] Built target basic_node\n'}
+[0.799994] (-) TimerEvent: {}
+[0.804406] (cpp07_exercise) StdoutLine: {'line': b'[ 87%] Built target exe03_client\n'}
+[0.900515] (-) TimerEvent: {}
+[1.002104] (-) TimerEvent: {}
+[1.102985] (-) TimerEvent: {}
+[1.204187] (-) TimerEvent: {}
+[1.305364] (-) TimerEvent: {}
+[1.406332] (-) TimerEvent: {}
+[1.508239] (-) TimerEvent: {}
+[1.610622] (-) TimerEvent: {}
+[1.711369] (-) TimerEvent: {}
+[1.812553] (-) TimerEvent: {}
+[1.913842] (-) TimerEvent: {}
+[2.014852] (-) TimerEvent: {}
+[2.115761] (-) TimerEvent: {}
+[2.217018] (-) TimerEvent: {}
+[2.318755] (-) TimerEvent: {}
+[2.420029] (-) TimerEvent: {}
+[2.521355] (-) TimerEvent: {}
+[2.622748] (-) TimerEvent: {}
+[2.724268] (-) TimerEvent: {}
+[2.825672] (-) TimerEvent: {}
+[2.926505] (-) TimerEvent: {}
+[3.027853] (-) TimerEvent: {}
+[3.129293] (-) TimerEvent: {}
+[3.231454] (-) TimerEvent: {}
+[3.332444] (-) TimerEvent: {}
+[3.433211] (-) TimerEvent: {}
+[3.534443] (-) TimerEvent: {}
+[3.635726] (-) TimerEvent: {}
+[3.736747] (-) TimerEvent: {}
+[3.838522] (-) TimerEvent: {}
+[3.940832] (-) TimerEvent: {}
+[4.042702] (-) TimerEvent: {}
+[4.144667] (-) TimerEvent: {}
+[4.246555] (-) TimerEvent: {}
+[4.348094] (-) TimerEvent: {}
+[4.449327] (-) TimerEvent: {}
+[4.550852] (-) TimerEvent: {}
+[4.652106] (-) TimerEvent: {}
+[4.753645] (-) TimerEvent: {}
+[4.855086] (-) TimerEvent: {}
+[4.955990] (-) TimerEvent: {}
+[5.057128] (-) TimerEvent: {}
+[5.159054] (-) TimerEvent: {}
+[5.259940] (-) TimerEvent: {}
+[5.361273] (-) TimerEvent: {}
+[5.462750] (-) TimerEvent: {}
+[5.563961] (-) TimerEvent: {}
+[5.665404] (-) TimerEvent: {}
+[5.767134] (-) TimerEvent: {}
+[5.868490] (-) TimerEvent: {}
+[5.969681] (-) TimerEvent: {}
+[6.070477] (-) TimerEvent: {}
+[6.171198] (-) TimerEvent: {}
+[6.272202] (-) TimerEvent: {}
+[6.373215] (-) TimerEvent: {}
+[6.474397] (-) TimerEvent: {}
+[6.575225] (-) TimerEvent: {}
+[6.676049] (-) TimerEvent: {}
+[6.777165] (-) TimerEvent: {}
+[6.881851] (-) TimerEvent: {}
+[6.983869] (-) TimerEvent: {}
+[7.084823] (-) TimerEvent: {}
+[7.186185] (-) TimerEvent: {}
+[7.287433] (-) TimerEvent: {}
+[7.388727] (-) TimerEvent: {}
+[7.490243] (-) TimerEvent: {}
+[7.591453] (-) TimerEvent: {}
+[7.692683] (-) TimerEvent: {}
+[7.794166] (-) TimerEvent: {}
+[7.895464] (-) TimerEvent: {}
+[7.996810] (-) TimerEvent: {}
+[8.097891] (-) TimerEvent: {}
+[8.199012] (-) TimerEvent: {}
+[8.300302] (-) TimerEvent: {}
+[8.401900] (-) TimerEvent: {}
+[8.503312] (-) TimerEvent: {}
+[8.604798] (-) TimerEvent: {}
+[8.706130] (-) TimerEvent: {}
+[8.809705] (-) TimerEvent: {}
+[8.910453] (-) TimerEvent: {}
+[9.011412] (-) TimerEvent: {}
+[9.112348] (-) TimerEvent: {}
+[9.213562] (-) TimerEvent: {}
+[9.314547] (-) TimerEvent: {}
+[9.415755] (-) TimerEvent: {}
+[9.516597] (-) TimerEvent: {}
+[9.618319] (-) TimerEvent: {}
+[9.720695] (-) TimerEvent: {}
+[9.822630] (-) TimerEvent: {}
+[9.924224] (-) TimerEvent: {}
+[10.026338] (-) TimerEvent: {}
+[10.130701] (-) TimerEvent: {}
+[10.232866] (-) TimerEvent: {}
+[10.333689] (-) TimerEvent: {}
+[10.434741] (-) TimerEvent: {}
+[10.536098] (-) TimerEvent: {}
+[10.637412] (-) TimerEvent: {}
+[10.738922] (-) TimerEvent: {}
+[10.840233] (-) TimerEvent: {}
+[10.941679] (-) TimerEvent: {}
+[11.042839] (-) TimerEvent: {}
+[11.143561] (-) TimerEvent: {}
+[11.244567] (-) TimerEvent: {}
+[11.345670] (-) TimerEvent: {}
+[11.453885] (-) TimerEvent: {}
+[11.554936] (-) TimerEvent: {}
+[11.655834] (-) TimerEvent: {}
+[11.756940] (-) TimerEvent: {}
+[11.857874] (-) TimerEvent: {}
+[11.958662] (-) TimerEvent: {}
+[12.059438] (-) TimerEvent: {}
+[12.160700] (-) TimerEvent: {}
+[12.262258] (-) TimerEvent: {}
+[12.363461] (-) TimerEvent: {}
+[12.464756] (-) TimerEvent: {}
+[12.493268] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[12.493938] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[12.494253] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[12.494555] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.494850] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.495140] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.495432] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[12.495729] (cpp07_exercise) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (Exe03Client::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), Exe03Client*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.496026] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (Exe03Client::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >), Exe03Client*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.496319] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (Exe03Client::*)(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >); _BoundArgs = {Exe03Client*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.496718] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:11:42:\x1b[m\x1b[K   required from here\n'}
+[12.497009] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[12.497303] (cpp07_exercise) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[12.498519] (cpp07_exercise) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[12.498812] (cpp07_exercise) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[12.499085] (cpp07_exercise) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.499352] (cpp07_exercise) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[12.499621] (cpp07_exercise) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.500026] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[12.521266] (cpp07_exercise) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (Exe03Client::*)(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >), Exe03Client*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.522220] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (Exe03Client::*)(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >), Exe03Client*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.522790] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (Exe03Client::*)(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >); _BoundArgs = {Exe03Client*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.523334] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:12:79:\x1b[m\x1b[K   required from here\n'}
+[12.523854] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[12.524388] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 2>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 2>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[12.565243] (-) TimerEvent: {}
+[12.666249] (-) TimerEvent: {}
+[12.767555] (-) TimerEvent: {}
+[12.868768] (-) TimerEvent: {}
+[12.969958] (-) TimerEvent: {}
+[13.071109] (-) TimerEvent: {}
+[13.172458] (-) TimerEvent: {}
+[13.273693] (-) TimerEvent: {}
+[13.374615] (-) TimerEvent: {}
+[13.475606] (-) TimerEvent: {}
+[13.522422] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[13.523353] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[13.523970] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.524525] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.527828] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.528416] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.528949] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.533730] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.534339] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.534858] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.535372] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.535886] (cpp07_exercise) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename std::enable_if<(! rclcpp::detail::can_be_nullptr<CallbackT>::value), int>::type <anonymous> = 0; ServiceT = base_interfaces_demo::srv::Distance]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.536491] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = base_interfaces_demo::srv::Distance; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.537115] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = base_interfaces_demo::srv::Distance; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.538035] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:12:57:\x1b[m\x1b[K   required from here\n'}
+[13.538569] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<base_interfaces_demo::srv::Distance>::SharedPtrCallback>(std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.538904] (cpp07_exercise) StderrLine: {'line': b'   78 |       \x1b[01;31m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[13.539292] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.539793] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[13.540295] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.540792] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.541289] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.545887] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.546410] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.546908] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.547407] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.547929] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.548428] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.548929] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.551802] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1499:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.552469] (cpp07_exercise) StderrLine: {'line': b' 1499 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(_Args&&... __args)\n'}
+[13.552979] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.553820] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1499:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.554351] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[13.554921] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[13.555470] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[13.556044] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[13.556624] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[13.557224] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.559646] (cpp07_exercise) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>&]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.560275] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1499:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; _Args = {std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.560965] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename std::enable_if<(! rclcpp::detail::can_be_nullptr<CallbackT>::value), int>::type <anonymous> = 0; ServiceT = base_interfaces_demo::srv::Distance]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.561718] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = base_interfaces_demo::srv::Distance; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.562346] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = base_interfaces_demo::srv::Distance; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.562974] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:12:57:\x1b[m\x1b[K   required from here\n'}
+[13.563605] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2585:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.564222] (cpp07_exercise) StderrLine: {'line': b' 2585 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[13.564767] (cpp07_exercise) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.565321] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[13.566066] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.566648] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.567205] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.567799] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.568379] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.568976] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.569720] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.570321] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.570908] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.571495] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.572074] (cpp07_exercise) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename std::enable_if<(! rclcpp::detail::can_be_nullptr<CallbackT>::value), int>::type <anonymous> = 0; ServiceT = base_interfaces_demo::srv::Distance]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.572665] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = base_interfaces_demo::srv::Distance; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.575126] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = base_interfaces_demo::srv::Distance; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.575780] (-) TimerEvent: {}
+[13.576458] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:12:57:\x1b[m\x1b[K   required from here\n'}
+[13.577079] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1509:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.577961] (cpp07_exercise) StderrLine: {'line': b' 1509 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(initializer_list<_Up> __il, _Args&&... __args)\n'}
+[13.578561] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.579178] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1509:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.579802] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[13.580241] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[13.580804] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.581665] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.582224] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.582770] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.583319] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.583828] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.590280] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.590887] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.591435] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.591968] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Value>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.592524] (cpp07_exercise) StderrLine: {'line': b'   78 |       \x1b[01;36m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[13.593067] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.593853] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[13.594425] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.594977] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.595536] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.596077] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.596616] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.597187] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.597915] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.598305] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.598736] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.599296] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.599851] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1519:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.605947] (cpp07_exercise) StderrLine: {'line': b' 1519 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(_Args&&... __args)\n'}
+[13.606902] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.607503] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1519:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.611968] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[13.612725] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[13.613306] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.614150] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.614735] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.615185] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.615767] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.616335] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.616654] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.617179] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.617994] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.618414] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.618754] (cpp07_exercise) StderrLine: {'line': b'   78 |       \x1b[01;31m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[13.618986] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.619216] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a constant of type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99, got \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnyServiceCallback<base_interfaces_demo::srv::Distance>::SharedPtrCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[13.619445] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[13.619671] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.619890] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.620109] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.620346] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.620887] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.623164] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.623769] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.624404] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.624980] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.625729] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.626369] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1573:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.627083] (cpp07_exercise) StderrLine: {'line': b' 1573 |         \x1b[01;36m\x1b[Kemplace\x1b[m\x1b[K(initializer_list<_Up> __il, _Args&&... __args)\n'}
+[13.627675] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.628238] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1573:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.628815] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36\x1b[m\x1b[K,\n'}
+[13.629384] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[13.630179] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.630769] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.631372] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.631973] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.632562] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.633170] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.634051] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.634931] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.635527] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.636102] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<base_interfaces_demo::srv::Distance> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.636946] (cpp07_exercise) StderrLine: {'line': b'   78 |       \x1b[01;31m\x1b[Kcallback_.template emplace<SharedPtrCallback>(callback)\x1b[m\x1b[K;\n'}
+[13.639064] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.639703] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:78:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a constant of type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99, got \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnyServiceCallback<base_interfaces_demo::srv::Distance>::SharedPtrCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<base_interfaces_demo::srv::Distance_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Distance_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[13.676515] (-) TimerEvent: {}
+[13.777677] (-) TimerEvent: {}
+[13.878439] (-) TimerEvent: {}
+[13.979633] (-) TimerEvent: {}
+[14.040425] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32\x1b[m\x1b[K,\n'}
+[14.041014] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29\x1b[m\x1b[K,\n'}
+[14.041299] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[14.041670] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[14.041945] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[14.042832] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[14.044094] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[14.044379] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[14.044645] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[14.045046] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[14.045290] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[14.045633] (cpp07_exercise) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; MessageT = turtlesim::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.045883] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = turtlesim::msg::Pose_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.046145] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = turtlesim::msg::Pose_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.046417] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.046702] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.047276] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:10:67:\x1b[m\x1b[K   required from here\n'}
+[14.047846] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>::function(std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.048090] (cpp07_exercise) StderrLine: {'line': b'  391 |       set_deprecated(\x1b[01;31m\x1b[Kstatic_cast<typename scbth::callback_type>(callback)\x1b[m\x1b[K);\n'}
+[14.048475] (cpp07_exercise) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.049082] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:47\x1b[m\x1b[K,\n'}
+[14.049747] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[14.050509] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[14.051092] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[14.051628] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:435:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor, class _Constraints> std::function<_Res(_ArgTypes ...)>::function(_Functor&&) [with _Functor = _Functor; _Constraints = _Constraints; _Res = void; _ArgTypes = {std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.053028] (cpp07_exercise) StderrLine: {'line': b'  435 |         \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(_Functor&& __f)\n'}
+[14.053769] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.054343] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:435:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.054855] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[14.055406] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[14.055915] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[14.056464] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[14.056968] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[14.057693] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[14.058245] (cpp07_exercise) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.058756] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:353:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>::_Callable<std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>&, std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>, std::__invoke_result<std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>&, std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > > > >; _Tp = void; _Res = void; _ArgTypes = {std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.059337] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:434:9:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; MessageT = turtlesim::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.059847] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = turtlesim::msg::Pose_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.060658] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = turtlesim::msg::Pose_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.061102] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.061568] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.061983] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:10:67:\x1b[m\x1b[K   required from here\n'}
+[14.062278] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2211:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.062541] (cpp07_exercise) StderrLine: {'line': b' 2211 |     using \x1b[01;31m\x1b[K__enable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[14.062803] (cpp07_exercise) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.063084] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:47\x1b[m\x1b[K,\n'}
+[14.063346] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[14.063606] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[14.063867] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:1\x1b[m\x1b[K:\n'}
+[14.064150] (cpp07_exercise) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; MessageT = turtlesim::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.064425] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = turtlesim::msg::Pose_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.064740] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = turtlesim::msg::Pose_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.065028] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.065346] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; CallbackT = std::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.065699] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe02_server.cpp:10:67:\x1b[m\x1b[K   required from here\n'}
+[14.065963] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:404:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::function(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.066249] (cpp07_exercise) StderrLine: {'line': b'  404 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(function&& __x) noexcept\n'}
+[14.066509] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.066767] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:404:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.067044] (cpp07_exercise) StderrLine: {'line': b'  404 |       function(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[14.067310] (cpp07_exercise) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[14.067576] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:386:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::function(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.067839] (cpp07_exercise) StderrLine: {'line': b'  386 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(const function& __x)\n'}
+[14.068129] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.068419] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:386:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<void(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.068926] (cpp07_exercise) StderrLine: {'line': b'  386 |       function(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[14.069663] (cpp07_exercise) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[14.070234] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:375:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::function(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.070742] (cpp07_exercise) StderrLine: {'line': b'  375 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(nullptr_t) noexcept\n'}
+[14.071284] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.071789] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:375:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (Exe03Client::*(Exe03Client*))(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.072350] (cpp07_exercise) StderrLine: {'line': b'  375 |       function(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[14.072863] (cpp07_exercise) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.073399] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:368:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::function() [with _Res = void; _ArgTypes = {std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.074218] (cpp07_exercise) StderrLine: {'line': b'  368 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K() noexcept\n'}
+[14.074758] (cpp07_exercise) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.075282] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:368:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[14.080133] (-) TimerEvent: {}
+[14.181731] (-) TimerEvent: {}
+[14.282874] (-) TimerEvent: {}
+[14.383813] (-) TimerEvent: {}
+[14.484761] (-) TimerEvent: {}
+[14.586278] (-) TimerEvent: {}
+[14.687532] (-) TimerEvent: {}
+[14.788920] (-) TimerEvent: {}
+[14.890405] (-) TimerEvent: {}
+[14.991736] (-) TimerEvent: {}
+[15.093044] (-) TimerEvent: {}
+[15.194383] (-) TimerEvent: {}
+[15.295583] (-) TimerEvent: {}
+[15.397938] (-) TimerEvent: {}
+[15.500452] (-) TimerEvent: {}
+[15.603097] (-) TimerEvent: {}
+[15.706238] (-) TimerEvent: {}
+[15.809771] (-) TimerEvent: {}
+[15.911978] (-) TimerEvent: {}
+[16.013079] (-) TimerEvent: {}
+[16.114176] (-) TimerEvent: {}
+[16.215267] (-) TimerEvent: {}
+[16.316092] (-) TimerEvent: {}
+[16.417192] (-) TimerEvent: {}
+[16.518620] (-) TimerEvent: {}
+[16.620105] (-) TimerEvent: {}
+[16.722469] (-) TimerEvent: {}
+[16.825916] (-) TimerEvent: {}
+[16.926906] (-) TimerEvent: {}
+[17.027808] (-) TimerEvent: {}
+[17.129078] (-) TimerEvent: {}
+[17.230790] (-) TimerEvent: {}
+[17.332140] (-) TimerEvent: {}
+[17.433044] (-) TimerEvent: {}
+[17.534666] (-) TimerEvent: {}
+[17.635910] (-) TimerEvent: {}
+[17.737323] (-) TimerEvent: {}
+[17.838774] (-) TimerEvent: {}
+[17.939721] (-) TimerEvent: {}
+[18.040907] (-) TimerEvent: {}
+[18.142175] (-) TimerEvent: {}
+[18.243356] (-) TimerEvent: {}
+[18.344620] (-) TimerEvent: {}
+[18.446179] (-) TimerEvent: {}
+[18.547443] (-) TimerEvent: {}
+[18.648768] (-) TimerEvent: {}
+[18.750238] (-) TimerEvent: {}
+[18.851637] (-) TimerEvent: {}
+[18.952865] (-) TimerEvent: {}
+[19.054152] (-) TimerEvent: {}
+[19.158142] (-) TimerEvent: {}
+[19.259540] (-) TimerEvent: {}
+[19.360546] (-) TimerEvent: {}
+[19.462088] (-) TimerEvent: {}
+[19.563620] (-) TimerEvent: {}
+[19.664956] (-) TimerEvent: {}
+[19.766004] (-) TimerEvent: {}
+[19.867534] (-) TimerEvent: {}
+[19.968560] (-) TimerEvent: {}
+[20.069623] (-) TimerEvent: {}
+[20.171842] (-) TimerEvent: {}
+[20.273139] (-) TimerEvent: {}
+[20.374561] (-) TimerEvent: {}
+[20.475498] (-) TimerEvent: {}
+[20.576622] (-) TimerEvent: {}
+[20.677789] (-) TimerEvent: {}
+[20.779383] (-) TimerEvent: {}
+[20.880698] (-) TimerEvent: {}
+[20.924646] (cpp07_exercise) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exe02_server.dir/build.make:76\xef\xbc\x9aCMakeFiles/exe02_server.dir/src/exe02_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[20.926222] (cpp07_exercise) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195\xef\xbc\x9aCMakeFiles/exe02_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[20.931431] (cpp07_exercise) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[20.942331] (cpp07_exercise) CommandEnded: {'returncode': 2}
+[20.982025] (-) TimerEvent: {}
+[21.086179] (-) TimerEvent: {}
+[21.187999] (-) TimerEvent: {}
+[21.291448] (-) TimerEvent: {}
+[21.395282] (-) TimerEvent: {}
+[21.497656] (-) TimerEvent: {}
+[21.598962] (-) TimerEvent: {}
+[21.687258] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 2}
+[21.772628] (-) TimerEvent: {}
+[21.773291] (-) EventReactorShutdown: {}

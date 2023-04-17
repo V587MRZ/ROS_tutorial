@@ -1,0 +1,21 @@
+[0.141s] Invoking command in '/home/levi/tut_interface/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6
+[0.595s] [35m[1mConsolidate compiler generated dependencies of target exe03_client[0m
+[0.695s] [ 25%] Built target basic_node
+[0.703s] [ 50%] Built target exe01_pub_sub
+[0.738s] [ 75%] Built target exe02_server
+[0.802s] [ 87%] [32mBuilding CXX object CMakeFiles/exe03_client.dir/src/exe03_client.cpp.o[0m
+[12.454s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:[m[K In member function ‘[01m[Kbool Exe03Client::connect_server()[m[K’:
+[12.455s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_client[m[K’ was not declared in this scope
+[12.455s]    13 |         while (![01;31m[Kdistance_client[m[K->wait_for_service(1s))
+[12.456s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[12.456s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:13:51:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[12.457s]    13 |         while (!distance_client->wait_for_service([01;31m[K1s[m[K))
+[12.457s]       |                                                   [01;31m[K^~[m[K
+[12.476s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[12.477s] [01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:61:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[12.477s]    61 |     [01;31m[Krclcpp[m[K::shutdown();
+[12.478s]       |     [01;31m[K^~~~~~[m[K
+[14.260s] gmake[2]: *** [CMakeFiles/exe03_client.dir/build.make:76：CMakeFiles/exe03_client.dir/src/exe03_client.cpp.o] 错误 1
+[14.261s] gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/exe03_client.dir/all] 错误 2
+[14.261s] gmake: *** [Makefile:146：all] 错误 2
+[14.271s] Invoked command in '/home/levi/tut_interface/build/cpp07_exercise' returned '2': CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp07_exercise -- -j6 -l6

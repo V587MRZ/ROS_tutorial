@@ -3,10 +3,11 @@
 
 using namespace std::chrono_literals;
 using base_interfaces_demo::msg::Student;
+
 class MinimalPublisher : public rclcpp::Node
 {
 public:
-  MinimalPublisher() : Node("student_publisher"), count_(0)
+  MinimalPublisher() : Node("student_publisher", "ns1"), count_(0)
   {
     publisher_ = this->create_publisher<Student>("topic_stu", 10);
     timer_ = this->create_wall_timer(1s, std::bind(&MinimalPublisher::timer_callback, this));

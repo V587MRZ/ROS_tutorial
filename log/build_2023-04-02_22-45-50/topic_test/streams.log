@@ -1,0 +1,26 @@
+[0.074s] Invoking command in '/home/levi/tut_interface/build/topic_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/topic_test -- -j6 -l6
+[0.394s] [35m[1mConsolidate compiler generated dependencies of target topic_server[0m
+[0.560s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_server.dir/src/topic_server.cpp.o[0m
+[16.676s] [100%] [32m[1mLinking CXX executable topic_server[0m
+[17.838s] [100%] Built target topic_server
+[17.905s] Invoked command in '/home/levi/tut_interface/build/topic_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/topic_test -- -j6 -l6
+[18.306s] Invoking command in '/home/levi/tut_interface/build/topic_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/topic_test
+[18.360s] -- Install configuration: ""
+[18.366s] -- Installing: /home/levi/tut_interface/install/topic_test/lib/topic_test/topic_server
+[18.389s] -- Set runtime path of "/home/levi/tut_interface/install/topic_test/lib/topic_test/topic_server" to ""
+[18.390s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/ament_index/resource_index/package_run_dependencies/topic_test
+[18.394s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/ament_index/resource_index/parent_prefix_path/topic_test
+[18.396s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/environment/ament_prefix_path.sh
+[18.397s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/environment/ament_prefix_path.dsv
+[18.397s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/environment/path.sh
+[18.397s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/environment/path.dsv
+[18.400s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/local_setup.bash
+[18.404s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/local_setup.sh
+[18.407s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/local_setup.zsh
+[18.411s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/local_setup.dsv
+[18.412s] -- Installing: /home/levi/tut_interface/install/topic_test/share/topic_test/package.dsv
+[18.413s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/ament_index/resource_index/packages/topic_test
+[18.414s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/cmake/topic_testConfig.cmake
+[18.414s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/cmake/topic_testConfig-version.cmake
+[18.416s] -- Up-to-date: /home/levi/tut_interface/install/topic_test/share/topic_test/package.xml
+[18.416s] Invoked command in '/home/levi/tut_interface/build/topic_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/topic_test

@@ -1,0 +1,14 @@
+[ 14%] Built target exe02_server
+[ 28%] Built target exe01_pub_sub
+[ 42%] Built target basic_node
+[ 57%] Built target exe04_action_server
+[ 71%] Built target exe03_client
+[ 85%] Built target exe05_action_client
+[ 92%] [32mBuilding CXX object CMakeFiles/exe06_param.dir/src/exe06_param.cpp.o[0m
+[01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe06_param.cpp:[m[K In member function ‘[01m[Kvoid ExeParamClient::update_param()[m[K’:
+[01m[K/home/levi/tut_interface/src/cpp07_exercise/src/exe06_param.cpp:35:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   35 |             [01;31m[Kif[m[K (i >= 510)
+      |             [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/exe06_param.dir/build.make:76：CMakeFiles/exe06_param.dir/src/exe06_param.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:305：CMakeFiles/exe06_param.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

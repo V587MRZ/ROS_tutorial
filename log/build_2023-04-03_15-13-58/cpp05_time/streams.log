@@ -1,0 +1,26 @@
+[0.199s] Invoking command in '/home/levi/tut_interface/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp05_time -- -j6 -l6
+[0.719s] [35m[1mConsolidate compiler generated dependencies of target demo_time[0m
+[0.907s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_time.dir/src/demo_time.cpp.o[0m
+[13.929s] [100%] [32m[1mLinking CXX executable demo_time[0m
+[14.769s] [100%] Built target demo_time
+[14.840s] Invoked command in '/home/levi/tut_interface/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp05_time -- -j6 -l6
+[15.191s] Invoking command in '/home/levi/tut_interface/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp05_time
+[15.251s] -- Install configuration: ""
+[15.256s] -- Installing: /home/levi/tut_interface/install/cpp05_time/lib/cpp05_time/demo_time
+[15.269s] -- Set runtime path of "/home/levi/tut_interface/install/cpp05_time/lib/cpp05_time/demo_time" to ""
+[15.272s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/ament_index/resource_index/package_run_dependencies/cpp05_time
+[15.275s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/ament_index/resource_index/parent_prefix_path/cpp05_time
+[15.278s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.sh
+[15.279s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.dsv
+[15.279s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/environment/path.sh
+[15.280s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/environment/path.dsv
+[15.280s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/local_setup.bash
+[15.289s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/local_setup.sh
+[15.292s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/local_setup.zsh
+[15.293s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/local_setup.dsv
+[15.297s] -- Installing: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/package.dsv
+[15.298s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/ament_index/resource_index/packages/cpp05_time
+[15.301s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig.cmake
+[15.303s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig-version.cmake
+[15.307s] -- Up-to-date: /home/levi/tut_interface/install/cpp05_time/share/cpp05_time/package.xml
+[15.308s] Invoked command in '/home/levi/tut_interface/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp05_time

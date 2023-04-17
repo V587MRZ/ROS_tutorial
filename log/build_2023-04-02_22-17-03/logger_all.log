@@ -1,0 +1,545 @@
+[1.408s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.408s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3cb45d4a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3cb4dc5c60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3cb4dc5c60>>)
+[1.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.529s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/levi/tut_interface'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[1.596s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[1.601s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['ignore', 'ignore_ament_install']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'ignore'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'ignore_ament_install'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['colcon_pkg']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'colcon_pkg'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['colcon_meta']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'colcon_meta'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extensions ['ros']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_srv) by extension 'ros'
+[1.606s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_srv' with type 'ros.ament_cmake' and name 'cpp02_srv'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ignore', 'ignore_ament_install']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore_ament_install'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_pkg']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_pkg'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_meta']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_meta'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ros']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ros'
+[1.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp03_action' with type 'ros.ament_cmake' and name 'cpp03_action'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['ignore', 'ignore_ament_install']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ignore'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ignore_ament_install'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['colcon_pkg']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'colcon_pkg'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['colcon_meta']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'colcon_meta'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['ros']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ros'
+[1.617s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp04_param' with type 'ros.ament_cmake' and name 'cpp04_param'
+[1.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extension 'ignore'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extension 'ignore_ament_install'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extensions ['colcon_pkg']
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extension 'colcon_pkg'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extensions ['colcon_meta']
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extension 'colcon_meta'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extensions ['ros']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/meta_pkg) by extension 'ros'
+[1.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/meta_pkg' with type 'ros.ament_cmake' and name 'meta_pkg'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extensions ['ignore', 'ignore_ament_install']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extension 'ignore'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extension 'ignore_ament_install'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extensions ['colcon_pkg']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extension 'colcon_pkg'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extensions ['colcon_meta']
+[1.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extension 'colcon_meta'
+[1.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extensions ['ros']
+[1.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test) by extension 'ros'
+[1.627s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_test' with type 'ros.ament_cmake' and name 'topic_test'
+[1.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.728s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/levi/tut_interface/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.728s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/levi/tut_interface/src/install/meta_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.729s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/levi/tut_interface/src/install/cpp04_param' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.729s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/levi/tut_interface/src/install/cpp03_action' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.729s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/levi/tut_interface/src/install/cpp02_srv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.729s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/levi/tut_interface/src/install/cpp01_topic' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.730s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/levi/tut_interface/src/install/base_interfaces_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.730s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/levi/tut_interface/src/install/meta_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.730s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/levi/tut_interface/src/install/cpp04_param' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.731s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/levi/tut_interface/src/install/cpp03_action' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.731s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/levi/tut_interface/src/install/cpp02_srv' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.731s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/levi/tut_interface/src/install/cpp01_topic' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.731s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/levi/tut_interface/src/install/base_interfaces_demo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.757s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.039s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to 'None'
+[2.040s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[2.040s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.040s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.040s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[2.041s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[2.041s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[2.041s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.041s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.042s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/levi/tut_interface/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_args' from command line to 'None'
+[2.044s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target' from command line to 'None'
+[2.044s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.044s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_cache' from command line to 'False'
+[2.044s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_first' from command line to 'False'
+[2.044s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_force_configure' from command line to 'False'
+[2.044s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'ament_cmake_args' from command line to 'None'
+[2.045s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_cmake_args' from command line to 'None'
+[2.045s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.045s] DEBUG:colcon.colcon_core.verb:Building package 'cpp04_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/cpp04_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/cpp04_param', 'merge_install': False, 'path': '/home/levi/tut_interface/src/cpp04_param', 'symlink_install': False, 'test_result_base': None}
+[2.047s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'cmake_args' from command line to 'None'
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'cmake_target' from command line to 'None'
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'cmake_clean_cache' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'cmake_clean_first' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'cmake_force_configure' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'ament_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'catkin_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'topic_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.050s] DEBUG:colcon.colcon_core.verb:Building package 'topic_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/topic_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/topic_test', 'merge_install': False, 'path': '/home/levi/tut_interface/src/topic_test', 'symlink_install': False, 'test_result_base': None}
+[2.053s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to 'None'
+[2.053s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[2.053s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.053s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[2.054s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[2.054s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.055s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/cpp01_topic', 'merge_install': False, 'path': '/home/levi/tut_interface/src/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'cmake_args' from command line to 'None'
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'cmake_target' from command line to 'None'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'cmake_clean_cache' from command line to 'False'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'cmake_clean_first' from command line to 'False'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'cmake_force_configure' from command line to 'False'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'ament_cmake_args' from command line to 'None'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'catkin_cmake_args' from command line to 'None'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'cpp02_srv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.060s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_srv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/cpp02_srv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/cpp02_srv', 'merge_install': False, 'path': '/home/levi/tut_interface/src/cpp02_srv', 'symlink_install': False, 'test_result_base': None}
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_args' from command line to 'None'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target' from command line to 'None'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_cache' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_first' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_force_configure' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'ament_cmake_args' from command line to 'None'
+[2.064s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_cmake_args' from command line to 'None'
+[2.064s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.064s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/cpp03_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/cpp03_action', 'merge_install': False, 'path': '/home/levi/tut_interface/src/cpp03_action', 'symlink_install': False, 'test_result_base': None}
+[2.067s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'cmake_args' from command line to 'None'
+[2.067s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'cmake_target' from command line to 'None'
+[2.067s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.067s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.067s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.067s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.068s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.068s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.068s] Level 5:colcon.colcon_core.verb:set package 'meta_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.068s] DEBUG:colcon.colcon_core.verb:Building package 'meta_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/levi/tut_interface/build/meta_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/levi/tut_interface/install/meta_pkg', 'merge_install': False, 'path': '/home/levi/tut_interface/src/meta_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.070s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.081s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/base_interfaces_demo' with build type 'ament_cmake'
+[2.081s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/base_interfaces_demo'
+[2.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.139s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/cpp04_param' with build type 'ament_cmake'
+[2.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/cpp04_param'
+[2.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/topic_test' with build type 'ament_cmake'
+[2.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/topic_test'
+[2.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/base_interfaces_demo -- -j6 -l6
+[2.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[2.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/topic_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/levi/tut_interface/src/topic_test -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/topic_test
+[3.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/cpp04_param -- -j6 -l6
+[4.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param
+[4.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[4.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/cpp04_param
+[4.233s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake module files
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake config files
+[4.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[4.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[4.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[4.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[4.245s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib'
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/python3.10/site-packages'
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[4.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.ps1'
+[4.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.dsv'
+[4.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.sh'
+[4.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.bash'
+[4.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.zsh'
+[4.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[4.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[4.952s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake module files
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param' for CMake config files
+[4.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[4.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[4.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[4.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[4.973s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib'
+[4.974s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[4.974s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[4.975s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/lib/python3.10/site-packages'
+[4.976s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp04_param/bin'
+[4.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.ps1'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.dsv'
+[4.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.sh'
+[4.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.bash'
+[5.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp04_param/share/cpp04_param/package.zsh'
+[5.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[11.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/topic_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/levi/tut_interface/src/topic_test -DCMAKE_INSTALL_PREFIX=/home/levi/tut_interface/install/topic_test
+[11.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/topic_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/topic_test -- -j6 -l6
+[11.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/base_interfaces_demo -- -j6 -l6
+[13.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/topic_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/levi/tut_interface/build/topic_test -- -j6 -l6
+[13.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/topic_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/topic_test
+[13.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_test)
+[13.467s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test' for CMake module files
+[13.470s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test' for CMake config files
+[13.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_test', 'cmake_prefix_path')
+[13.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/topic_test/share/topic_test/hook/cmake_prefix_path.ps1'
+[13.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/topic_test/share/topic_test/hook/cmake_prefix_path.dsv'
+[13.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/topic_test/share/topic_test/hook/cmake_prefix_path.sh'
+[13.476s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/lib'
+[13.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/topic_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/topic_test
+[13.480s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/bin'
+[13.481s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/lib/pkgconfig/topic_test.pc'
+[13.482s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/lib/python3.10/site-packages'
+[13.482s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/bin'
+[13.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.ps1'
+[13.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/topic_test/share/topic_test/package.dsv'
+[13.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.sh'
+[13.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.bash'
+[13.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.zsh'
+[13.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/topic_test/share/colcon-core/packages/topic_test)
+[13.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/base_interfaces_demo
+[13.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_test)
+[13.859s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test' for CMake module files
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test' for CMake config files
+[13.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_test', 'cmake_prefix_path')
+[13.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/topic_test/share/topic_test/hook/cmake_prefix_path.ps1'
+[13.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/topic_test/share/topic_test/hook/cmake_prefix_path.dsv'
+[13.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/topic_test/share/topic_test/hook/cmake_prefix_path.sh'
+[13.873s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/lib'
+[13.873s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/bin'
+[13.873s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/lib/pkgconfig/topic_test.pc'
+[13.874s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/lib/python3.10/site-packages'
+[13.874s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/topic_test/bin'
+[13.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.ps1'
+[13.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/topic_test/share/topic_test/package.dsv'
+[13.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.sh'
+[13.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.bash'
+[13.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/topic_test/share/topic_test/package.zsh'
+[13.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/topic_test/share/colcon-core/packages/topic_test)
+[14.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[14.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/levi/tut_interface/build/base_interfaces_demo
+[14.237s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo' for CMake module files
+[14.250s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo' for CMake config files
+[14.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[14.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[14.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[14.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[14.288s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/lib'
+[14.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[14.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[14.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[14.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[14.309s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/bin'
+[14.310s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[14.313s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/lib/python3.10/site-packages'
+[14.315s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/bin'
+[14.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[14.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[14.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[14.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[14.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[14.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[16.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[16.023s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo' for CMake module files
+[16.032s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo' for CMake config files
+[16.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[16.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[16.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[16.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[16.057s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/lib'
+[16.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[16.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[16.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[16.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[16.076s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/bin'
+[16.076s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[16.077s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/lib/python3.10/site-packages'
+[16.078s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/base_interfaces_demo/bin'
+[16.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[16.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[16.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[16.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[16.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[16.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[16.096s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/cpp01_topic' with build type 'ament_cmake'
+[16.096s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/cpp01_topic'
+[16.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/cpp02_srv' with build type 'ament_cmake'
+[16.138s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/cpp02_srv'
+[16.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/cpp03_action' with build type 'ament_cmake'
+[16.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/cpp03_action'
+[16.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp01_topic': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6
+[16.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp02_srv': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp02_srv -- -j6 -l6
+[16.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp03_action': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[62.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp03_action -- -j6 -l6
+[63.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp03_action': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action
+[63.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[63.959s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action' for CMake module files
+[63.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp03_action
+[63.973s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action' for CMake config files
+[63.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[64.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[64.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[64.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[64.035s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/lib'
+[64.035s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/bin'
+[64.035s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[64.036s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/lib/python3.10/site-packages'
+[64.036s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/bin'
+[64.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.ps1'
+[64.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.dsv'
+[64.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.sh'
+[64.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.bash'
+[64.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.zsh'
+[64.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[64.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[64.712s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action' for CMake module files
+[64.716s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action' for CMake config files
+[64.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[64.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[64.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[64.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[64.744s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/lib'
+[64.744s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/bin'
+[64.746s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[64.746s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/lib/python3.10/site-packages'
+[64.747s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp03_action/bin'
+[64.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.ps1'
+[64.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.dsv'
+[64.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.sh'
+[64.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.bash'
+[64.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp03_action/share/cpp03_action/package.zsh'
+[64.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[64.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp02_srv' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp02_srv -- -j6 -l6
+[65.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp02_srv': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp02_srv
+[65.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_srv)
+[65.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp02_srv' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp02_srv
+[65.417s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv' for CMake module files
+[65.423s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv' for CMake config files
+[65.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_srv', 'cmake_prefix_path')
+[65.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/hook/cmake_prefix_path.ps1'
+[65.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/hook/cmake_prefix_path.dsv'
+[65.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/hook/cmake_prefix_path.sh'
+[65.443s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/lib'
+[65.444s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/bin'
+[65.444s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/lib/pkgconfig/cpp02_srv.pc'
+[65.445s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/lib/python3.10/site-packages'
+[65.446s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/bin'
+[65.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.ps1'
+[65.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.dsv'
+[65.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.sh'
+[65.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.bash'
+[65.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.zsh'
+[65.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp02_srv/share/colcon-core/packages/cpp02_srv)
+[66.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_srv)
+[66.215s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv' for CMake module files
+[66.216s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv' for CMake config files
+[66.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_srv', 'cmake_prefix_path')
+[66.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/hook/cmake_prefix_path.ps1'
+[66.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/hook/cmake_prefix_path.dsv'
+[66.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/hook/cmake_prefix_path.sh'
+[66.226s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/lib'
+[66.226s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/bin'
+[66.226s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/lib/pkgconfig/cpp02_srv.pc'
+[66.227s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/lib/python3.10/site-packages'
+[66.227s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp02_srv/bin'
+[66.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.ps1'
+[66.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.dsv'
+[66.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.sh'
+[66.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.bash'
+[66.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp02_srv/share/cpp02_srv/package.zsh'
+[66.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp02_srv/share/colcon-core/packages/cpp02_srv)
+[79.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/cpp01_topic -- -j6 -l6
+[79.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/cpp01_topic': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp01_topic
+[79.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[79.910s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic' for CMake module files
+[79.912s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic' for CMake config files
+[79.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/cpp01_topic
+[79.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[79.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[79.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[79.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[79.926s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/lib'
+[79.926s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/bin'
+[79.926s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[79.926s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/lib/python3.10/site-packages'
+[79.927s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/bin'
+[79.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[79.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[79.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.sh'
+[79.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.bash'
+[79.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[79.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[80.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[80.303s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic' for CMake module files
+[80.305s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic' for CMake config files
+[80.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[80.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[80.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[80.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[80.314s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/lib'
+[80.314s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/bin'
+[80.314s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[80.314s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/lib/python3.10/site-packages'
+[80.315s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/cpp01_topic/bin'
+[80.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[80.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[80.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.sh'
+[80.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.bash'
+[80.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[80.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[80.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/levi/tut_interface/src/meta_pkg' with build type 'ament_cmake'
+[80.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/levi/tut_interface/src/meta_pkg'
+[80.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[80.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[80.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/meta_pkg': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/meta_pkg -- -j6 -l6
+[82.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/meta_pkg' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/levi/tut_interface/build/meta_pkg -- -j6 -l6
+[82.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/levi/tut_interface/build/meta_pkg': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/meta_pkg
+[82.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(meta_pkg)
+[82.547s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg' for CMake module files
+[82.549s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg' for CMake config files
+[82.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/levi/tut_interface/build/meta_pkg' returned '0': AMENT_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/src/install/meta_pkg:/home/levi/tut_interface/src/install/cpp04_param:/home/levi/tut_interface/src/install/cpp03_action:/home/levi/tut_interface/src/install/cpp02_srv:/home/levi/tut_interface/src/install/cpp01_topic:/home/levi/tut_interface/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/levi/tut_interface/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/levi/tut_interface/build/meta_pkg
+[82.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('meta_pkg', 'cmake_prefix_path')
+[82.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/hook/cmake_prefix_path.ps1'
+[82.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/hook/cmake_prefix_path.dsv'
+[82.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/hook/cmake_prefix_path.sh'
+[82.567s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/bin'
+[82.568s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/lib/pkgconfig/meta_pkg.pc'
+[82.568s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/lib/python3.10/site-packages'
+[82.569s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/bin'
+[82.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.ps1'
+[82.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.dsv'
+[82.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.sh'
+[82.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.bash'
+[82.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.zsh'
+[82.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/meta_pkg/share/colcon-core/packages/meta_pkg)
+[82.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(meta_pkg)
+[82.990s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg' for CMake module files
+[82.996s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg' for CMake config files
+[83.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('meta_pkg', 'cmake_prefix_path')
+[83.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/hook/cmake_prefix_path.ps1'
+[83.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/hook/cmake_prefix_path.dsv'
+[83.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/hook/cmake_prefix_path.sh'
+[83.026s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/bin'
+[83.026s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/lib/pkgconfig/meta_pkg.pc'
+[83.027s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/lib/python3.10/site-packages'
+[83.028s] Level 1:colcon.colcon_core.environment:checking '/home/levi/tut_interface/install/meta_pkg/bin'
+[83.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.ps1'
+[83.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.dsv'
+[83.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.sh'
+[83.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.bash'
+[83.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/levi/tut_interface/install/meta_pkg/share/meta_pkg/package.zsh'
+[83.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/levi/tut_interface/install/meta_pkg/share/colcon-core/packages/meta_pkg)
+[83.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[83.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[83.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[83.103s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[83.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[83.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[83.190s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[83.299s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[83.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.ps1'
+[83.307s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/levi/tut_interface/install/_local_setup_util_ps1.py'
+[83.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.ps1'
+[83.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.sh'
+[83.321s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/levi/tut_interface/install/_local_setup_util_sh.py'
+[83.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.sh'
+[83.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.bash'
+[83.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.bash'
+[83.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/levi/tut_interface/install/local_setup.zsh'
+[83.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/levi/tut_interface/install/setup.zsh'

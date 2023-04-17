@@ -1,0 +1,7 @@
+[ 14%] Built target exe02_server
+[ 28%] Built target exe01_pub_sub
+[ 42%] Built target basic_node
+[ 57%] Built target exe04_action_server
+[ 71%] Built target exe03_client
+[ 85%] Built target exe05_action_client
+[ 92%] [32mBuilding CXX object CMakeFiles/exe06_param.dir/src/exe06_param.cpp.o[0m

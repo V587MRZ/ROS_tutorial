@@ -1,0 +1,10 @@
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/uninstall.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/cpp05_time_uninstall.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/demo_time.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/test.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/edit_cache.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/rebuild_cache.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/list_install_components.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/install.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/install/local.dir
+/home/levi/tut_interface/build/cpp05_time/CMakeFiles/install/strip.dir

@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target exe03_client[0m
+[ 25%] Built target exe01_pub_sub
+[ 50%] Built target basic_node
+[ 75%] Built target exe02_server
+[ 87%] [32mBuilding CXX object CMakeFiles/exe03_client.dir/src/exe03_client.cpp.o[0m

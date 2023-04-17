@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.005194] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.005624] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.005768] (-) JobUnselected: {'identifier': 'cpp02_srv'}
+[0.005858] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.009151] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.010754] (-) JobUnselected: {'identifier': 'cpp05_time'}
+[0.011171] (-) JobUnselected: {'identifier': 'meta_pkg'}
+[0.011415] (-) JobUnselected: {'identifier': 'topic_test'}
+[0.012672] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/levi/tut_interface/install/base_interfaces_demo')])}
+[0.012861] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.099879] (-) TimerEvent: {}
+[0.110675] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.114677] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.118776] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/levi/tut_interface/build/cpp07_exercise', '--', '-j6', '-l6'], 'cwd': '/home/levi/tut_interface/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'levi'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/levi/tut_interface/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/levi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1119'), ('SYSTEMD_EXEC_PID', '1315'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4700'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/levi/tut_interface/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'levi'), ('JOURNAL_STREAM', '8:34671'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'levi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/levi/.local/bin:/opt/ros/humble/bin:/home/levi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/levi-virtual-machine:@/tmp/.ICE-unix/1271,unix/levi-virtual-machine:/tmp/.ICE-unix/1271'), ('INVOCATION_ID', 'f2e07b6de4d34d779218c7c9e9ac3a41'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5YJX21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f3d82d797.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/home/levi/tut_interface/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/levi/tut_interface/build/cpp07_exercise'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/levi/tut_interface/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/levi/tut_interface/install/base_interfaces_demo:/home/levi/tut_interface/install/topic_test:/home/levi/tut_interface/install/meta_pkg:/home/levi/tut_interface/install/cpp07_exercise:/home/levi/tut_interface/install/cpp05_time:/home/levi/tut_interface/install/cpp04_param:/home/levi/tut_interface/install/cpp03_action:/home/levi/tut_interface/install/cpp02_srv:/home/levi/tut_interface/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.200206] (-) TimerEvent: {}
+[0.301155] (-) TimerEvent: {}
+[0.402495] (-) TimerEvent: {}
+[0.504469] (-) TimerEvent: {}
+[0.557245] (cpp07_exercise) StdoutLine: {'line': b'[ 25%] Built target exe01_pub_sub\n'}
+[0.604984] (-) TimerEvent: {}
+[0.652709] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exe03_client\x1b[0m\n'}
+[0.705518] (-) TimerEvent: {}
+[0.807408] (-) TimerEvent: {}
+[0.863636] (cpp07_exercise) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/exe03_client.dir/src/exe03_client.cpp.o\x1b[0m\n'}
+[0.907817] (-) TimerEvent: {}
+[1.008531] (-) TimerEvent: {}
+[1.109171] (-) TimerEvent: {}
+[1.209693] (-) TimerEvent: {}
+[1.310429] (-) TimerEvent: {}
+[1.411404] (-) TimerEvent: {}
+[1.513022] (-) TimerEvent: {}
+[1.614177] (-) TimerEvent: {}
+[1.715313] (-) TimerEvent: {}
+[1.816151] (-) TimerEvent: {}
+[1.917042] (-) TimerEvent: {}
+[2.018079] (-) TimerEvent: {}
+[2.119003] (-) TimerEvent: {}
+[2.220492] (-) TimerEvent: {}
+[2.321670] (-) TimerEvent: {}
+[2.422504] (-) TimerEvent: {}
+[2.523269] (-) TimerEvent: {}
+[2.624325] (-) TimerEvent: {}
+[2.725477] (-) TimerEvent: {}
+[2.826295] (-) TimerEvent: {}
+[2.928464] (-) TimerEvent: {}
+[3.030821] (-) TimerEvent: {}
+[3.133607] (-) TimerEvent: {}
+[3.236143] (-) TimerEvent: {}
+[3.338388] (-) TimerEvent: {}
+[3.439415] (-) TimerEvent: {}
+[3.540428] (-) TimerEvent: {}
+[3.641537] (-) TimerEvent: {}
+[3.742496] (-) TimerEvent: {}
+[3.843973] (-) TimerEvent: {}
+[3.945399] (-) TimerEvent: {}
+[4.046724] (-) TimerEvent: {}
+[4.147881] (-) TimerEvent: {}
+[4.248625] (-) TimerEvent: {}
+[4.349312] (-) TimerEvent: {}
+[4.450260] (-) TimerEvent: {}
+[4.551304] (-) TimerEvent: {}
+[4.652170] (-) TimerEvent: {}
+[4.753091] (-) TimerEvent: {}
+[4.854404] (-) TimerEvent: {}
+[4.955607] (-) TimerEvent: {}
+[5.057206] (-) TimerEvent: {}
+[5.158181] (-) TimerEvent: {}
+[5.259056] (-) TimerEvent: {}
+[5.359973] (-) TimerEvent: {}
+[5.460875] (-) TimerEvent: {}
+[5.562111] (-) TimerEvent: {}
+[5.663406] (-) TimerEvent: {}
+[5.764891] (-) TimerEvent: {}
+[5.866306] (-) TimerEvent: {}
+[5.967199] (-) TimerEvent: {}
+[6.068697] (-) TimerEvent: {}
+[6.169887] (-) TimerEvent: {}
+[6.270910] (-) TimerEvent: {}
+[6.371799] (-) TimerEvent: {}
+[6.472540] (-) TimerEvent: {}
+[6.573517] (-) TimerEvent: {}
+[6.674862] (-) TimerEvent: {}
+[6.776147] (-) TimerEvent: {}
+[6.877406] (-) TimerEvent: {}
+[6.978672] (-) TimerEvent: {}
+[7.079998] (-) TimerEvent: {}
+[7.181090] (-) TimerEvent: {}
+[7.282320] (-) TimerEvent: {}
+[7.383475] (-) TimerEvent: {}
+[7.484875] (-) TimerEvent: {}
+[7.586095] (-) TimerEvent: {}
+[7.687063] (-) TimerEvent: {}
+[7.788371] (-) TimerEvent: {}
+[7.889174] (-) TimerEvent: {}
+[7.989957] (-) TimerEvent: {}
+[8.090998] (-) TimerEvent: {}
+[8.192072] (-) TimerEvent: {}
+[8.293108] (-) TimerEvent: {}
+[8.394216] (-) TimerEvent: {}
+[8.495069] (-) TimerEvent: {}
+[8.596419] (-) TimerEvent: {}
+[8.697980] (-) TimerEvent: {}
+[8.800139] (-) TimerEvent: {}
+[8.903357] (-) TimerEvent: {}
+[9.008850] (-) TimerEvent: {}
+[9.110379] (-) TimerEvent: {}
+[9.211440] (-) TimerEvent: {}
+[9.312453] (-) TimerEvent: {}
+[9.413886] (-) TimerEvent: {}
+[9.514891] (-) TimerEvent: {}
+[9.615621] (-) TimerEvent: {}
+[9.716865] (-) TimerEvent: {}
+[9.818109] (-) TimerEvent: {}
+[9.919430] (-) TimerEvent: {}
+[10.020525] (-) TimerEvent: {}
+[10.121492] (-) TimerEvent: {}
+[10.222847] (-) TimerEvent: {}
+[10.323522] (-) TimerEvent: {}
+[10.424891] (-) TimerEvent: {}
+[10.525925] (-) TimerEvent: {}
+[10.626715] (-) TimerEvent: {}
+[10.728541] (-) TimerEvent: {}
+[10.829992] (-) TimerEvent: {}
+[10.930975] (-) TimerEvent: {}
+[11.031985] (-) TimerEvent: {}
+[11.133398] (-) TimerEvent: {}
+[11.234691] (-) TimerEvent: {}
+[11.335985] (-) TimerEvent: {}
+[11.436970] (-) TimerEvent: {}
+[11.538015] (-) TimerEvent: {}
+[11.639235] (-) TimerEvent: {}
+[11.740225] (-) TimerEvent: {}
+[11.841060] (-) TimerEvent: {}
+[11.942051] (-) TimerEvent: {}
+[12.043199] (-) TimerEvent: {}
+[12.129437] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:4:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kusing-declaration may not name namespace \xe2\x80\x98\x1b[01m\x1b[Kstd::literals::chrono_literals\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.130322] (cpp07_exercise) StderrLine: {'line': b'    4 | using std::\x1b[01;31m\x1b[Kchrono_literals\x1b[m\x1b[K\n'}
+[12.130951] (cpp07_exercise) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.131343] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:4:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kclass\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.131811] (cpp07_exercise) StderrLine: {'line': b'    4 | using std::chrono_literals\n'}
+[12.132141] (cpp07_exercise) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.132429] (cpp07_exercise) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[12.132742] (cpp07_exercise) StderrLine: {'line': b'    5 | \x1b[32m\x1b[Kclass\x1b[m\x1b[K Exe03Client : public rclcpp::Node\n'}
+[12.133034] (cpp07_exercise) StderrLine: {'line': b'      | \x1b[32m\x1b[K~~~~~\x1b[m\x1b[K                      \n'}
+[12.143652] (-) TimerEvent: {}
+[12.244831] (-) TimerEvent: {}
+[12.304179] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Exe03Client::connect_server()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.304574] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:14:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance_client\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.304861] (cpp07_exercise) StderrLine: {'line': b'   14 |         while (!\x1b[01;31m\x1b[Kdistance_client\x1b[m\x1b[K->wait_for_service(1s))\n'}
+[12.305162] (cpp07_exercise) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.305463] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/levi/tut_interface/src/cpp07_exercise/src/exe03_client.cpp:14:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.305762] (cpp07_exercise) StderrLine: {'line': b'   14 |         while (!distance_client->wait_for_service(\x1b[01;31m\x1b[K1s\x1b[m\x1b[K))\n'}
+[12.306067] (cpp07_exercise) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.345466] (-) TimerEvent: {}
+[12.446534] (-) TimerEvent: {}
+[12.547540] (-) TimerEvent: {}
+[12.648710] (-) TimerEvent: {}
+[12.749619] (-) TimerEvent: {}
+[12.850832] (-) TimerEvent: {}
+[12.951802] (-) TimerEvent: {}
+[13.052942] (-) TimerEvent: {}
+[13.153874] (-) TimerEvent: {}
+[13.256322] (-) TimerEvent: {}
+[13.357363] (-) TimerEvent: {}
+[13.458466] (-) TimerEvent: {}
+[13.559973] (-) TimerEvent: {}
+[13.660694] (-) TimerEvent: {}
+[13.761675] (-) TimerEvent: {}
+[13.862884] (-) TimerEvent: {}
+[13.964040] (-) TimerEvent: {}
+[14.064852] (-) TimerEvent: {}
+[14.165660] (-) TimerEvent: {}
+[14.266899] (-) TimerEvent: {}
+[14.370106] (-) TimerEvent: {}
+[14.375533] (cpp07_exercise) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exe03_client.dir/build.make:76\xef\xbc\x9aCMakeFiles/exe03_client.dir/src/exe03_client.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[14.379988] (cpp07_exercise) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221\xef\xbc\x9aCMakeFiles/exe03_client.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[14.398123] (cpp07_exercise) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[14.407927] (cpp07_exercise) CommandEnded: {'returncode': 2}
+[14.470863] (-) TimerEvent: {}
+[14.572661] (-) TimerEvent: {}
+[14.675619] (-) TimerEvent: {}
+[14.777341] (-) TimerEvent: {}
+[14.880454] (-) TimerEvent: {}
+[14.981439] (-) TimerEvent: {}
+[15.082802] (-) TimerEvent: {}
+[15.091535] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 2}
+[15.108911] (-) EventReactorShutdown: {}
